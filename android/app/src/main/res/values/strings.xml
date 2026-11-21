@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Kairn</string>
+    <string name="title_activity_main">Kairn</string>
+    <string name="package_name">app.kairn.coach</string>
+    <string name="custom_url_scheme">app.kairn.coach</string>
+</resources>

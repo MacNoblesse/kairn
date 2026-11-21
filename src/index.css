@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --kairn-bg: #F6F8FB;
+    --kairn-surface-low: #FFFFFF;
+    --kairn-surface: #FFFFFF;
+    --kairn-surface-high: #EEF2F7;
+    --kairn-border: #DCE3EE;
+    --kairn-text: #0F172A;
+    --kairn-text-muted: #475569;
+    --kairn-primary: #4F46E5;
+    --kairn-primary-soft: rgba(79, 70, 229, 0.10);
+    --kairn-success: #059669;
+    --kairn-warning: #D97706;
+  }
+
+  .dark {
+    --kairn-bg: #0B101B;
+    --kairn-surface-low: #121927;
+    --kairn-surface: #161F30;
+    --kairn-surface-high: #1E293E;
+    --kairn-border: #26334D;
+    --kairn-text: #F1F5F9;
+    --kairn-text-muted: #94A3B8;
+    --kairn-primary: #818CF8;
+    --kairn-primary-soft: rgba(129, 140, 248, 0.14);
+    --kairn-success: #34D399;
+    --kairn-warning: #FBBF24;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+.pb-safe {
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+}
+
+.pt-safe {
+  padding-top: env(safe-area-inset-top);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

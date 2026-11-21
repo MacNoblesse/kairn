@@ -1,0 +1,18 @@
+{
+  "appId": "app.kairn.coach",
+  "appName": "Kairn",
+  "webDir": "dist",
+  "backgroundColor": "#0B101B",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_kairn",
+      "iconColor": "#4F46E5"
+    }
+  }
+}

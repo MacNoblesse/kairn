@@ -1,0 +1,37 @@
+# Kairn — un seul service, toutes les données dans le volume Docker « kairn_data ».
+#   docker compose up -d --build        démarrer (ou mettre à jour après un git pull)
+#   docker compose down                 arrêter (les données restent dans le volume)
+name: kairn
+
+services:
+  kairn:
+    build: .
+    image: kairn:local
+    container_name: kairn
+    restart: unless-stopped
+    ports:
+      # 127.0.0.1 par défaut : l'appli n'a pas de mot de passe. Voir README pour l'ouvrir au téléphone.
+      - "${BIND_ADDRESS:-127.0.0.1}:${PORT:-3000}:3000"
+    environment:
+      TZ: ${TZ:-Europe/Paris}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      DATA_DIR: /data
+      CORS_ORIGINS: ${CORS_ORIGINS:-https://localhost,capacitor://localhost,http://localhost}
+    volumes:
+      - kairn_data:/data
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+    deploy:
+      resources:
+        limits: { cpus: "1.0", memory: 512M }
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+
+volumes:
+  kairn_data:
+    name: kairn_data

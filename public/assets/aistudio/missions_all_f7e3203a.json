@@ -1,0 +1,5020 @@
+{
+ "index": {
+  "version": 1,
+  "sunday": "Revue de la semaine (pas de mission) : victoires d'abord, refaite à froid, objectifs de la semaine suivante, brouillon de post",
+  "weeks": [
+   {
+    "week": 1,
+    "theme": "Windows Server, Active Directory et support",
+    "goal": "Gérer un petit domaine d'entreprise et traiter des tickets avec méthode",
+    "linkedin_post_idea": "Un incident AD résolu : symptôme, diagnostic, correction",
+    "missions": [
+     "S1-M1",
+     "S1-M2",
+     "S1-M3",
+     "S1-M4",
+     "S1-M5",
+     "S1-M6"
+    ]
+   },
+   {
+    "week": 2,
+    "theme": "Services Windows et pratiques de support",
+    "goal": "DHCP, DNS, serveur de fichiers, scripts d'arrivée et de départ, lecture des journaux",
+    "linkedin_post_idea": "Ce que j'ai appris en traitant 10 tickets de niveau 1",
+    "missions": [
+     "S2-M1",
+     "S2-M2",
+     "S2-M3",
+     "S2-M4",
+     "S2-M5",
+     "S2-M6"
+    ]
+   },
+   {
+    "week": 3,
+    "theme": "Réseau : VLAN, routage, ACL, dépannage",
+    "goal": "Concevoir, configurer et dépanner un réseau segmenté de PME",
+    "linkedin_post_idea": "Une panne réseau diagnostiquée couche par couche",
+    "missions": [
+     "S3-M1",
+     "S3-M2",
+     "S3-M3",
+     "S3-M4",
+     "S3-M5",
+     "S3-M6"
+    ]
+   },
+   {
+    "week": 4,
+    "theme": "Linux en production et supervision",
+    "goal": "Sécuriser un serveur, le superviser, le sauvegarder et prouver la restauration",
+    "linkedin_post_idea": "Sécuriser SSH : les erreurs que j'ai faites et ce que j'en retiens",
+    "missions": [
+     "S4-M1",
+     "S4-M2",
+     "S4-M3",
+     "S4-M4",
+     "S4-M5",
+     "S4-M6"
+    ]
+   },
+   {
+    "week": 5,
+    "theme": "Scripting Bash, PowerShell et Git",
+    "goal": "Automatiser avec des scripts robustes et un dépôt propre",
+    "linkedin_post_idea": "Mon premier script d'audit et ce qu'il a révélé",
+    "missions": [
+     "S5-M1",
+     "S5-M2",
+     "S5-M3",
+     "S5-M4",
+     "S5-M5",
+     "S5-M6"
+    ]
+   },
+   {
+    "week": 6,
+    "theme": "Python, Ansible et décision métier",
+    "goal": "Automatiser la configuration et choisir une voie d'après le marché",
+    "linkedin_post_idea": "Pourquoi j'ai choisi cette voie après avoir analysé 30 offres",
+    "missions": [
+     "S6-M1",
+     "S6-M2",
+     "S6-M3",
+     "S6-M4",
+     "S6-M5",
+     "S6-M6"
+    ]
+   },
+   {
+    "week": 7,
+    "theme": "Docker avancé",
+    "goal": "Images propres, Compose multi-services, données persistantes, images analysées",
+    "linkedin_post_idea": "Passer d'une image de 1 Go à une image minimale",
+    "missions": [
+     "S7-M1",
+     "S7-M2",
+     "S7-M3",
+     "S7-M4",
+     "S7-M5",
+     "S7-M6"
+    ]
+   },
+   {
+    "week": 8,
+    "theme": "CI/CD et bases d'AWS",
+    "goal": "Pipeline de livraison et premiers pas sécurisés dans le cloud",
+    "linkedin_post_idea": "Mon pipeline de déploiement et le retour arrière que j'ai testé",
+    "missions": [
+     "S8-M1",
+     "S8-M2",
+     "S8-M3",
+     "S8-M4",
+     "S8-M5",
+     "S8-M6"
+    ]
+   },
+   {
+    "week": 9,
+    "theme": "Sécurité : durcissement, détection, incident",
+    "goal": "Durcir, détecter, répondre et documenter",
+    "linkedin_post_idea": "Détecter une force brute SSH avec Wazuh sur mon laboratoire",
+    "missions": [
+     "S9-M1",
+     "S9-M2",
+     "S9-M3",
+     "S9-M4",
+     "S9-M5",
+     "S9-M6"
+    ]
+   },
+   {
+    "week": 10,
+    "theme": "Infrastructure en code avec Terraform",
+    "goal": "Décrire, vérifier et déployer l'infrastructure par le code",
+    "linkedin_post_idea": "Détruire et reconstruire une infrastructure en une commande",
+    "missions": [
+     "S10-M1",
+     "S10-M2",
+     "S10-M3",
+     "S10-M4",
+     "S10-M5",
+     "S10-M6"
+    ]
+   },
+   {
+    "week": 11,
+    "theme": "Projet final : plateforme d'entreprise sécurisée",
+    "goal": "Assembler infrastructure en code, configuration, pipeline, supervision et sécurité",
+    "linkedin_post_idea": "Mon projet final en une page d'architecture",
+    "missions": [
+     "S11-M1",
+     "S11-M2",
+     "S11-M3",
+     "S11-M4",
+     "S11-M5",
+     "S11-M6"
+    ]
+   },
+   {
+    "week": 12,
+    "theme": "Portfolio, entretiens et candidatures",
+    "goal": "Rendre le travail visible et lancer une recherche d'emploi structurée",
+    "linkedin_post_idea": "Ce que j'ai construit en 12 semaines",
+    "missions": [
+     "S12-M1",
+     "S12-M2",
+     "S12-M3",
+     "S12-M4",
+     "S12-M5",
+     "S12-M6"
+    ]
+   }
+  ]
+ },
+ "missions": [
+  {
+   "id": "S1-M1",
+   "week": 1,
+   "day": 1,
+   "day_label": "lundi",
+   "title": "Installer un contrôleur de domaine Active Directory",
+   "objective": "Un domaine entreprise.lab.test fonctionnel sur Windows Server en VM, avec IP statique et DNS intégré",
+   "duration_core_min": 90,
+   "notions": [
+    "Rôle d'un contrôleur de domaine",
+    "AD DS : forêt et domaine",
+    "DNS intégré à AD",
+    "IP statique et nom de machine",
+    "Snapshots de VM"
+   ],
+   "resource": "Microsoft Learn — Install Active Directory Domain Services",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Créer la VM Windows Server (version d'évaluation) et prendre un snapshot propre",
+    "Renommer la machine DC01 et fixer une IP statique",
+    "Installer le rôle AD DS et promouvoir en nouveau domaine entreprise.lab.test",
+    "Redémarrer et ouvrir une session avec le compte administrateur du domaine"
+   ],
+   "livrable": "Fiche runbook « Installer un DC » + plan d'adressage du lab",
+   "mini": "Écrire dans ta fiche les 4 étapes d'installation d'un DC, sans rien installer",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S1-M1-c1",
+      "host": "DC01",
+      "description": "Le domaine répond avec le bon nom",
+      "cmd": "(Get-ADDomain).DNSRoot",
+      "expect": {
+       "op": "equals",
+       "value": "entreprise.lab.test"
+      },
+      "expect_text": "entreprise.lab.test"
+     },
+     {
+      "id": "S1-M1-c2",
+      "host": "DC01",
+      "description": "Le DNS résout le nom du domaine",
+      "cmd": "(Resolve-DnsName entreprise.lab.test -Type A).IPAddress",
+      "expect": {
+       "op": "review",
+       "value": null
+      },
+      "expect_text": "adresse IP du DC"
+     },
+     {
+      "id": "S1-M1-c3",
+      "host": "DC01",
+      "description": "L'adresse IP est statique",
+      "cmd": "(Get-NetIPInterface -AddressFamily IPv4 -InterfaceAlias 'Ethernet*').Dhcp",
+      "expect": {
+       "op": "equals",
+       "value": "Disabled"
+      },
+      "expect_text": "Disabled"
+     }
+    ]
+   },
+   "extension": "Documenter le plan d'adressage ; refaire la promotion depuis le snapshot sans regarder tes notes",
+   "incident": "Le DC ne résout plus le nom du domaine : trouver la cause (DNS du client, zone, service) et corriger",
+   "flashcards_target": 6,
+   "skill_nodes": [
+    "windows.ad.install",
+    "windows.dns.basics"
+   ]
+  },
+  {
+   "id": "S1-M2",
+   "week": 1,
+   "day": 2,
+   "day_label": "mardi",
+   "title": "Structure d'OU et 30 utilisateurs créés par script PowerShell",
+   "objective": "Une arborescence d'OU et 30 comptes créés par script depuis un CSV, sans clic",
+   "duration_core_min": 75,
+   "notions": [
+    "OU et groupes de sécurité",
+    "Convention de nommage",
+    "New-ADUser et import CSV",
+    "Mot de passe initial et changement obligatoire",
+    "Script rejouable (idempotence)"
+   ],
+   "resource": "Microsoft Learn — New-ADUser (module ActiveDirectory)",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Créer l'OU parente Entreprise et les OU Direction, RH, IT, Comptabilité",
+    "Préparer un CSV de 30 utilisateurs répartis dans les OU",
+    "Écrire un script qui crée chaque compte avec changement de mot de passe obligatoire",
+    "Créer un groupe de sécurité GRP-<service> par service et y ajouter les utilisateurs"
+   ],
+   "livrable": "users.csv + create-users.ps1 + fiche runbook",
+   "mini": "Créer l'OU Entreprise et 3 utilisateurs à la main, puis les lister avec Get-ADUser",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S1-M2-c1",
+      "host": "DC01",
+      "description": "Les 4 OU existent sous Entreprise",
+      "cmd": "(Get-ADOrganizationalUnit -SearchBase 'OU=Entreprise,DC=entreprise,DC=lab,DC=test' -SearchScope OneLevel -Filter *).Count",
+      "expect": {
+       "op": "equals",
+       "value": 4
+      },
+      "expect_text": "4"
+     },
+     {
+      "id": "S1-M2-c2",
+      "host": "DC01",
+      "description": "Au moins 30 utilisateurs créés",
+      "cmd": "(Get-ADUser -Filter * -SearchBase 'OU=Entreprise,DC=entreprise,DC=lab,DC=test').Count",
+      "expect": {
+       "op": "gte",
+       "value": 30
+      },
+      "expect_text": ">= 30"
+     },
+     {
+      "id": "S1-M2-c3",
+      "host": "DC01",
+      "description": "Un groupe de sécurité par service",
+      "cmd": "(Get-ADGroup -Filter 'Name -like GRP-*').Count",
+      "expect": {
+       "op": "gte",
+       "value": 4
+      },
+      "expect_text": ">= 4"
+     }
+    ]
+   },
+   "extension": "Rendre le script rejouable sans doublons ; imposer la convention prenom.nom",
+   "incident": "Le script plante sur un doublon : lire l'erreur, corriger, relancer sans créer de doublon",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "windows.ad.users",
+    "powershell.basics"
+   ]
+  },
+  {
+   "id": "S1-M3",
+   "week": 1,
+   "day": 3,
+   "day_label": "mercredi",
+   "title": "Joindre un poste au domaine et créer des partages par service",
+   "objective": "Un poste client joint au domaine et des dossiers partagés dont l'accès dépend du service",
+   "duration_core_min": 150,
+   "notions": [
+    "Jointure au domaine",
+    "Permissions NTFS vs permissions de partage",
+    "Groupes AGDLP (principe)",
+    "Accès basé sur les groupes",
+    "Test d'accès côté utilisateur"
+   ],
+   "resource": "Microsoft Learn — Create a shared folder / NTFS permissions",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Créer la VM cliente PC01, pointer son DNS vers le DC et la joindre au domaine",
+    "Créer sur DC01 (ou un serveur de fichiers) un dossier par service",
+    "Donner l'accès à chaque dossier uniquement au groupe GRP-<service>",
+    "Se connecter sur PC01 avec un utilisateur RH et tester l'accès à RH puis à Comptabilité"
+   ],
+   "livrable": "Schéma des accès + fiche runbook",
+   "mini": "Lister dans ta fiche la différence entre permission NTFS et permission de partage, avec un exemple",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S1-M3-c1",
+      "host": "DC01",
+      "description": "Le poste client est dans l'annuaire et actif",
+      "cmd": "(Get-ADComputer PC01).Enabled",
+      "expect": {
+       "op": "equals",
+       "value": "True"
+      },
+      "expect_text": "True"
+     },
+     {
+      "id": "S1-M3-c2",
+      "host": "DC01",
+      "description": "Les partages de service existent",
+      "cmd": "(Get-SmbShare | Where-Object Name -in 'Direction','RH','IT','Compta').Count",
+      "expect": {
+       "op": "gte",
+       "value": 4
+      },
+      "expect_text": ">= 4"
+     },
+     {
+      "id": "S1-M3-c3",
+      "host": "none",
+      "description": "Un utilisateur RH ouvre le dossier RH mais est refusé sur Comptabilité (capture d'écran)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Mapper automatiquement les lecteurs réseau selon le groupe",
+   "incident": "« Je n'accède plus à mon dossier » : diagnostiquer permissions, groupe ou réseau",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "windows.fileserver.shares",
+    "windows.permissions.ntfs"
+   ]
+  },
+  {
+   "id": "S1-M4",
+   "week": 1,
+   "day": 4,
+   "day_label": "jeudi",
+   "title": "Appliquer des stratégies de groupe (GPO)",
+   "objective": "Trois GPO appliquées au bon périmètre et vérifiées avec gpresult",
+   "duration_core_min": 75,
+   "notions": [
+    "Ordre d'application des GPO (LSDOU)",
+    "Lien, filtrage et héritage",
+    "gpupdate et gpresult",
+    "GPO ordinateur vs utilisateur",
+    "Tester avant de généraliser"
+   ],
+   "resource": "Microsoft Learn — Group Policy overview",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Créer une GPO de verrouillage de session et fond d'écran liée à l'OU Entreprise",
+    "Créer une GPO qui restreint le panneau de configuration pour l'OU Comptabilité",
+    "Forcer l'application avec gpupdate /force sur PC01",
+    "Vérifier avec gpresult /r quelles GPO s'appliquent à quel utilisateur"
+   ],
+   "livrable": "Tableau « GPO, périmètre, effet » + fiche runbook",
+   "mini": "Créer une seule GPO (fond d'écran) et vérifier son application avec gpresult",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S1-M4-c1",
+      "host": "DC01",
+      "description": "Au moins 3 GPO nommées GPO-*",
+      "cmd": "(Get-GPO -All | Where-Object DisplayName -like 'GPO-*').Count",
+      "expect": {
+       "op": "gte",
+       "value": 3
+      },
+      "expect_text": ">= 3"
+     },
+     {
+      "id": "S1-M4-c2",
+      "host": "none",
+      "description": "gpresult /r sur PC01 montre la GPO de l'OU de l'utilisateur de test (capture d'écran)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Filtrer une GPO par groupe de sécurité",
+   "incident": "Une GPO ne s'applique pas : trouver la cause (lien, filtrage, héritage bloqué, réplication)",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "windows.gpo.basics",
+    "windows.troubleshooting.gpo"
+   ]
+  },
+  {
+   "id": "S1-M5",
+   "week": 1,
+   "day": 5,
+   "day_label": "vendredi",
+   "title": "Installer un outil de tickets (GLPI) et traiter des tickets",
+   "objective": "GLPI accessible, avec catégories, et trois tickets traités selon une méthode de diagnostic",
+   "duration_core_min": 90,
+   "notions": [
+    "Cycle de vie d'un ticket",
+    "Catégories, priorités, SLA de base",
+    "Méthode de diagnostic (symptôme, hypothèses, tests, cause, solution)",
+    "Docker Compose pour une application web + base",
+    "Documentation de la solution"
+   ],
+   "resource": "Documentation GLPI + documentation Docker Compose (image communautaire à vérifier avant usage)",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Déployer GLPI et sa base avec Docker Compose",
+    "Créer les catégories (matériel, accès, réseau, logiciel) et 5 tickets réalistes",
+    "Traiter 3 tickets en notant symptôme, hypothèses, tests, cause et solution",
+    "Clore les tickets avec une solution rédigée de façon réutilisable"
+   ],
+   "livrable": "GLPI en fonctionnement + 3 tickets documentés",
+   "mini": "Créer un ticket dans GLPI et le résoudre en rédigeant la solution en 5 lignes",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S1-M5-c1",
+      "host": "srv-linux",
+      "description": "Les conteneurs GLPI tournent",
+      "cmd": "docker ps --format '{{.Names}}' | grep -ci glpi",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S1-M5-c2",
+      "host": "srv-linux",
+      "description": "L'interface répond",
+      "cmd": "curl -s -o /dev/null -w '%{http_code}' http://localhost:8080",
+      "expect": {
+       "op": "one_of",
+       "value": [
+        "200",
+        "302"
+       ]
+      },
+      "expect_text": "200 ou 302"
+     },
+     {
+      "id": "S1-M5-c3",
+      "host": "none",
+      "description": "3 tickets clos avec solution documentée (export ou capture d'écran)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Appliquer la méthode de diagnostic à 3 tickets que tu n'as jamais vus",
+   "incident": "3 tickets inconnus (imprimante, accès partagé, session verrouillée) : les traiter chronométré, 15 min chacun",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "support.ticketing.glpi",
+    "support.method.diagnostic",
+    "docker.compose.basics"
+   ]
+  },
+  {
+   "id": "S1-M6",
+   "week": 1,
+   "day": 6,
+   "day_label": "samedi",
+   "title": "Sauvegarder le contrôleur de domaine et restaurer un objet supprimé",
+   "objective": "Une sauvegarde du DC et la restauration d'un utilisateur supprimé avec ses attributs",
+   "duration_core_min": 120,
+   "notions": [
+    "Sauvegarde système vs sauvegarde d'état",
+    "Corbeille Active Directory",
+    "Restauration d'un objet supprimé",
+    "Règle 3-2-1",
+    "Tester la restauration"
+   ],
+   "resource": "Microsoft Learn — Windows Server Backup + AD Recycle Bin",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Installer Windows Server Backup et effectuer une sauvegarde du DC",
+    "Activer la corbeille Active Directory",
+    "Supprimer un utilisateur de test puis le restaurer avec ses attributs",
+    "Rédiger la procédure de restauration étape par étape"
+   ],
+   "livrable": "Procédure de sauvegarde et de restauration testée",
+   "mini": "Rédiger la règle 3-2-1 avec un exemple adapté à ton lab",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S1-M6-c1",
+      "host": "DC01",
+      "description": "La corbeille AD est activée",
+      "cmd": "(Get-ADOptionalFeature 'Recycle Bin Feature').EnabledScopes.Count",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S1-M6-c2",
+      "host": "DC01",
+      "description": "Au moins une sauvegarde existe",
+      "cmd": "(Get-WBBackupSet).Count",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S1-M6-c3",
+      "host": "DC01",
+      "description": "L'utilisateur de test existe de nouveau",
+      "cmd": "(Get-ADUser -Identity test.restore).Enabled",
+      "expect": {
+       "op": "equals",
+       "value": "True"
+      },
+      "expect_text": "True"
+     }
+    ]
+   },
+   "extension": "Planifier la sauvegarde ; simuler une restauration complète en VM",
+   "incident": "Simulation chronométrée : trois incidents mélangés (accès, GPO, compte supprimé) à résoudre en 60 min",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "windows.backup.restore",
+    "windows.ad.recycle"
+   ]
+  },
+  {
+   "id": "S2-M1",
+   "week": 2,
+   "day": 1,
+   "day_label": "lundi",
+   "title": "Configurer un serveur DHCP",
+   "objective": "Une étendue DHCP fonctionnelle avec réservation et clients qui obtiennent une adresse",
+   "duration_core_min": 90,
+   "notions": [
+    "Processus DORA",
+    "Étendue, exclusions, baux",
+    "Réservations",
+    "Autorisation du serveur dans AD",
+    "Options (passerelle, DNS)"
+   ],
+   "resource": "Microsoft Learn — Install and configure DHCP",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Installer le rôle DHCP et autoriser le serveur dans AD",
+    "Créer une étendue 192.168.10.100-200 avec passerelle et DNS",
+    "Créer une réservation pour une machine du lab",
+    "Vérifier l'obtention du bail depuis PC01"
+   ],
+   "livrable": "Fiche « Configurer DHCP » + tableau des étendues",
+   "mini": "Décrire à voix haute les 4 messages DORA",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S2-M1-c1",
+      "host": "DC01",
+      "description": "L'étendue existe",
+      "cmd": "(Get-DhcpServerv4Scope).Count",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S2-M1-c2",
+      "host": "DC01",
+      "description": "Le serveur est autorisé dans AD",
+      "cmd": "(Get-DhcpServerInDC).Count",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S2-M1-c3",
+      "host": "PC01",
+      "description": "Le client a un bail dans l'étendue",
+      "cmd": "(Get-NetIPConfiguration).IPv4Address.IPAddress",
+      "expect": {
+       "op": "review",
+       "value": null
+      },
+      "expect_text": "adresse 192.168.10.x"
+     }
+    ]
+   },
+   "extension": "Créer un second scope et tester le basculement conceptuellement",
+   "incident": "Un poste reçoit une adresse 169.254.x.x : diagnostiquer",
+   "flashcards_target": 6,
+   "skill_nodes": [
+    "windows.dhcp.basics",
+    "network.dhcp.dora"
+   ]
+  },
+  {
+   "id": "S2-M2",
+   "week": 2,
+   "day": 2,
+   "day_label": "mardi",
+   "title": "Maîtriser le DNS d'un domaine",
+   "objective": "Zones directe et inverse, enregistrements A et CNAME, redirecteurs, résolution depuis un client",
+   "duration_core_min": 75,
+   "notions": [
+    "Zone directe et inverse",
+    "Enregistrements A, CNAME, PTR",
+    "Redirecteurs et résolution externe",
+    "nslookup et Resolve-DnsName",
+    "Cache DNS"
+   ],
+   "resource": "Microsoft Learn — DNS Server in Windows Server",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Créer une zone inverse et vérifier les PTR",
+    "Ajouter des enregistrements A et CNAME pour tes serveurs du lab",
+    "Configurer un redirecteur et tester la résolution d'un nom externe",
+    "Tester depuis PC01 et vider le cache"
+   ],
+   "livrable": "Tableau des enregistrements DNS du lab + fiche",
+   "mini": "Faire 3 requêtes nslookup et expliquer chaque réponse",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S2-M2-c1",
+      "host": "DC01",
+      "description": "La zone inverse existe",
+      "cmd": "(Get-DnsServerZone | Where-Object IsReverseLookupZone).Count",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S2-M2-c2",
+      "host": "DC01",
+      "description": "Un CNAME existe",
+      "cmd": "(Get-DnsServerResourceRecord -ZoneName entreprise.lab.test -RRType CName).Count",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S2-M2-c3",
+      "host": "none",
+      "description": "Résolution d'un nom externe réussie depuis PC01 (capture d'écran)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Créer un enregistrement mal formé et comprendre l'effet sur un client",
+   "incident": "« Je n'accède pas au serveur par son nom, mais par son IP si » : diagnostiquer",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "windows.dns.zones",
+    "network.dns.records"
+   ]
+  },
+  {
+   "id": "S2-M3",
+   "week": 2,
+   "day": 3,
+   "day_label": "mercredi",
+   "title": "Serveur de fichiers avancé : quotas, filtrage et audit",
+   "objective": "Quotas FSRM, filtrage de fichiers et suivi des accès sur un partage",
+   "duration_core_min": 150,
+   "notions": [
+    "FSRM : quotas et filtres",
+    "Copies cliché (versions précédentes)",
+    "Audit d'accès aux fichiers",
+    "Héritage des permissions",
+    "Principe du moindre privilège"
+   ],
+   "resource": "Microsoft Learn — File Server Resource Manager",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Installer FSRM et définir un quota de 500 Mo sur le dossier Comptabilité",
+    "Bloquer les fichiers exécutables sur un partage",
+    "Activer les copies cliché et restaurer une version précédente",
+    "Activer l'audit d'accès et retrouver l'événement correspondant"
+   ],
+   "livrable": "Fiche « Gouvernance d'un serveur de fichiers »",
+   "mini": "Lister dans ta fiche 3 risques d'un partage sans quota ni audit",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S2-M3-c1",
+      "host": "DC01",
+      "description": "Un quota existe",
+      "cmd": "(Get-FsrmQuota).Count",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S2-M3-c2",
+      "host": "DC01",
+      "description": "Un filtrage de fichiers existe",
+      "cmd": "(Get-FsrmFileScreen).Count",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S2-M3-c3",
+      "host": "none",
+      "description": "Une version précédente d'un fichier est restaurée (capture d'écran)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Générer un rapport FSRM d'utilisation du stockage",
+   "incident": "Un partage est plein : trouver qui et quoi, puis agir sans supprimer à l'aveugle",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "windows.fsrm",
+    "windows.audit.files"
+   ]
+  },
+  {
+   "id": "S2-M4",
+   "week": 2,
+   "day": 4,
+   "day_label": "jeudi",
+   "title": "Scripts d'arrivée et de départ des utilisateurs",
+   "objective": "Deux scripts PowerShell : onboarding et offboarding, avec journalisation",
+   "duration_core_min": 90,
+   "notions": [
+    "Cycle de vie d'un compte",
+    "Paramètres et validation en PowerShell",
+    "try/catch et journalisation",
+    "Désactiver avant de supprimer",
+    "Procédure RH-IT"
+   ],
+   "resource": "Microsoft Learn — about_Functions_Advanced_Parameters / about_Try_Catch_Finally",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Écrire onboarding.ps1 : création, groupes, dossier personnel",
+    "Écrire offboarding.ps1 : désactivation, retrait des groupes, déplacement en OU Archive",
+    "Ajouter un journal horodaté dans un fichier",
+    "Tester sur un compte fictif"
+   ],
+   "livrable": "onboarding.ps1 + offboarding.ps1 + fiche procédure",
+   "mini": "Écrire la liste des étapes d'un départ d'employé, sans script",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S2-M4-c1",
+      "host": "DC01",
+      "description": "Les scripts existent",
+      "cmd": "(Test-Path C:\\Scripts\\onboarding.ps1) -and (Test-Path C:\\Scripts\\offboarding.ps1)",
+      "expect": {
+       "op": "equals",
+       "value": "True"
+      },
+      "expect_text": "True"
+     },
+     {
+      "id": "S2-M4-c2",
+      "host": "DC01",
+      "description": "Le compte de test est désactivé après offboarding",
+      "cmd": "(Get-ADUser test.depart).Enabled",
+      "expect": {
+       "op": "equals",
+       "value": "False"
+      },
+      "expect_text": "False"
+     },
+     {
+      "id": "S2-M4-c3",
+      "host": "DC01",
+      "description": "Un journal existe",
+      "cmd": "(Get-ChildItem C:\\Scripts\\logs -ErrorAction SilentlyContinue).Count",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     }
+    ]
+   },
+   "extension": "Ajouter un mode simulation (-WhatIf) à offboarding.ps1",
+   "incident": "Le script d'offboarding échoue à mi-parcours : rendre l'opération reprenable",
+   "flashcards_target": 6,
+   "skill_nodes": [
+    "powershell.functions",
+    "windows.ad.lifecycle"
+   ]
+  },
+  {
+   "id": "S2-M5",
+   "week": 2,
+   "day": 5,
+   "day_label": "vendredi",
+   "title": "Diagnostiquer avec les journaux d'événements",
+   "objective": "Retrouver et expliquer des événements de connexion, de verrouillage et d'erreur système",
+   "duration_core_min": 75,
+   "notions": [
+    "Journaux Sécurité, Système, Application",
+    "Événements 4624, 4625, 4740",
+    "Get-WinEvent et filtres",
+    "Corréler un symptôme et un événement",
+    "Audit des connexions"
+   ],
+   "resource": "Microsoft Learn — Get-WinEvent + Event Viewer",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Activer l'audit des connexions réussies et échouées par GPO",
+    "Provoquer 3 échecs de connexion puis retrouver l'événement 4625",
+    "Verrouiller un compte volontairement et retrouver l'événement 4740",
+    "Écrire la méthode pour trouver la source d'un verrouillage"
+   ],
+   "livrable": "Fiche « Lire les journaux Windows »",
+   "mini": "Trouver et expliquer un événement 4625 dans l'Observateur d'événements",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S2-M5-c1",
+      "host": "DC01",
+      "description": "Des événements 4625 existent",
+      "cmd": "(Get-WinEvent -FilterHashtable @{LogName='Security';Id=4625} -MaxEvents 5 -ErrorAction SilentlyContinue).Count",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S2-M5-c2",
+      "host": "DC01",
+      "description": "Un événement 4740 existe",
+      "cmd": "(Get-WinEvent -FilterHashtable @{LogName='Security';Id=4740} -MaxEvents 1 -ErrorAction SilentlyContinue).Count",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     }
+    ]
+   },
+   "extension": "Écrire un script qui liste les 10 derniers échecs de connexion avec la source",
+   "incident": "Un utilisateur se verrouille toutes les heures : trouver le poste ou le service coupable",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "windows.eventlog",
+    "security.authentication.events"
+   ]
+  },
+  {
+   "id": "S2-M6",
+   "week": 2,
+   "day": 6,
+   "day_label": "samedi",
+   "title": "Sprint support : 10 tickets de niveau 1",
+   "objective": "Traiter dix tickets variés avec méthode, temps de résolution et solution documentée",
+   "duration_core_min": 120,
+   "notions": [
+    "Priorisation",
+    "Communication avec un utilisateur non technique",
+    "Escalade",
+    "Base de connaissances",
+    "Temps de résolution"
+   ],
+   "resource": "Documentation GLPI — base de connaissances",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Obtenir 10 scénarios de tickets (mot de passe, imprimante, VPN, lenteur, accès, verrouillage…)",
+    "Traiter chaque ticket en 15 minutes maximum avec la méthode",
+    "Rédiger chaque solution comme un article réutilisable",
+    "Noter ceux qui ont dépassé le temps et pourquoi"
+   ],
+   "livrable": "10 tickets clos et articles de base de connaissances",
+   "mini": "Traiter un seul ticket de bout en bout avec solution rédigée",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S2-M6-c1",
+      "host": "none",
+      "description": "10 tickets clos dans GLPI avec cause et solution (export)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S2-M6-c2",
+      "host": "none",
+      "description": "Au moins 5 articles de base de connaissances rédigés",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Écrire un message type pour annoncer une panne aux utilisateurs",
+   "incident": "Deux tickets urgents arrivent en même temps : prioriser et justifier à voix haute",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "support.level1",
+    "support.communication"
+   ]
+  },
+  {
+   "id": "S3-M1",
+   "week": 3,
+   "day": 1,
+   "day_label": "lundi",
+   "title": "Plan d'adressage et découpage en sous-réseaux",
+   "objective": "Un plan d'adressage VLSM cohérent pour une PME de quatre services",
+   "duration_core_min": 75,
+   "notions": [
+    "Masques et notation CIDR",
+    "Calcul de sous-réseaux",
+    "VLSM",
+    "Adresse réseau, broadcast, plage utile",
+    "Plan documenté"
+   ],
+   "resource": "Cisco Networking Academy — IP addressing (ou cours équivalent)",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Calculer 5 sous-réseaux à la main",
+    "Concevoir le plan d'une PME : Direction, RH, IT, Comptabilité, serveurs",
+    "Réserver de la marge de croissance",
+    "Documenter dans un tableau"
+   ],
+   "livrable": "Plan d'adressage VLSM complet",
+   "mini": "Calculer à la main les adresses d'un /26",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S3-M1-c1",
+      "host": "none",
+      "description": "Plan d'adressage avec réseau, masque, plage utile et broadcast pour chaque service",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S3-M1-c2",
+      "host": "none",
+      "description": "Aucune adresse ne se chevauche (relecture du plan)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Refaire le plan avec une contrainte de croissance de 50 %",
+   "incident": "Deux services partagent une plage par erreur : trouver et corriger",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "network.subnetting",
+    "network.addressing.plan"
+   ]
+  },
+  {
+   "id": "S3-M2",
+   "week": 3,
+   "day": 2,
+   "day_label": "mardi",
+   "title": "VLAN et liens trunk 802.1Q",
+   "objective": "Trois VLAN sur des commutateurs reliés par un trunk, avec ports d'accès",
+   "duration_core_min": 75,
+   "notions": [
+    "VLAN et domaine de diffusion",
+    "Port d'accès vs trunk",
+    "802.1Q et VLAN natif",
+    "show vlan brief et show interfaces trunk",
+    "Segmentation et sécurité"
+   ],
+   "resource": "Cisco Networking Academy — VLANs and trunking",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Construire la topologie dans Packet Tracer (ou GNS3)",
+    "Créer les VLAN 10, 20, 30 et affecter les ports",
+    "Configurer le trunk entre deux commutateurs",
+    "Vérifier que deux hôtes du même VLAN communiquent à travers le trunk"
+   ],
+   "livrable": "Fichier de topologie + configurations exportées",
+   "mini": "Expliquer à voix haute la différence entre port d'accès et trunk",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S3-M2-c1",
+      "host": "none",
+      "description": "show vlan brief affiche les VLAN 10, 20, 30 avec les bons ports",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S3-M2-c2",
+      "host": "none",
+      "description": "show interfaces trunk affiche le trunk actif",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S3-M2-c3",
+      "host": "none",
+      "description": "Ping réussi entre deux hôtes du même VLAN sur deux commutateurs",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Changer le VLAN natif et comprendre le message d'erreur",
+   "incident": "Deux hôtes du même VLAN ne communiquent pas : trouver la cause (port, trunk, VLAN absent)",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "network.vlan",
+    "network.trunk.8021q"
+   ]
+  },
+  {
+   "id": "S3-M3",
+   "week": 3,
+   "day": 3,
+   "day_label": "mercredi",
+   "title": "Routage inter-VLAN",
+   "objective": "Les VLAN communiquent entre eux via un routeur ou une interface SVI",
+   "duration_core_min": 150,
+   "notions": [
+    "Routeur sur un bâton (sous-interfaces)",
+    "SVI sur un commutateur de niveau 3",
+    "Passerelle par défaut",
+    "Table de routage",
+    "Dépannage couche par couche"
+   ],
+   "resource": "Cisco Networking Academy — Inter-VLAN routing",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Configurer les sous-interfaces du routeur avec encapsulation 802.1Q",
+    "Donner à chaque hôte la bonne passerelle",
+    "Tester la communication entre VLAN",
+    "Reproduire avec une SVI sur un commutateur de niveau 3"
+   ],
+   "livrable": "Configurations des deux méthodes + schéma",
+   "mini": "Dessiner le chemin d'un paquet entre deux VLAN",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S3-M3-c1",
+      "host": "none",
+      "description": "show ip route affiche les trois réseaux connectés",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S3-M3-c2",
+      "host": "none",
+      "description": "Ping réussi entre VLAN 10 et VLAN 20",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S3-M3-c3",
+      "host": "none",
+      "description": "Configurations des deux méthodes exportées",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Ajouter un quatrième VLAN sans casser les autres",
+   "incident": "Le ping entre VLAN échoue : trouver si c'est la passerelle, le trunk ou la sous-interface",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "network.intervlan",
+    "network.routing.basics"
+   ]
+  },
+  {
+   "id": "S3-M4",
+   "week": 3,
+   "day": 4,
+   "day_label": "jeudi",
+   "title": "DHCP relais et serveurs dans un réseau segmenté",
+   "objective": "Des clients de plusieurs VLAN obtiennent leur adresse du serveur DHCP central",
+   "duration_core_min": 90,
+   "notions": [
+    "DHCP relais (ip helper-address)",
+    "Plusieurs étendues",
+    "Option 82 (principe)",
+    "Pourquoi le broadcast ne traverse pas un routeur",
+    "Résolution de noms entre VLAN"
+   ],
+   "resource": "Cisco Networking Academy — DHCP relay",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Placer le serveur DHCP dans un VLAN serveurs",
+    "Créer une étendue par VLAN client",
+    "Configurer ip helper-address sur les interfaces",
+    "Vérifier le bail de chaque client"
+   ],
+   "livrable": "Configurations + tableau des étendues",
+   "mini": "Expliquer pourquoi un broadcast ne traverse pas un routeur",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S3-M4-c1",
+      "host": "none",
+      "description": "Les hôtes de chaque VLAN reçoivent une adresse de leur étendue",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S3-M4-c2",
+      "host": "none",
+      "description": "ip helper-address visible dans la configuration des interfaces",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Ajouter une réservation pour un serveur dans un autre VLAN",
+   "incident": "Les clients d'un seul VLAN n'obtiennent pas d'adresse : trouver la cause",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "network.dhcp.relay",
+    "network.segmentation"
+   ]
+  },
+  {
+   "id": "S3-M5",
+   "week": 3,
+   "day": 5,
+   "day_label": "vendredi",
+   "title": "ACL et NAT/PAT",
+   "objective": "Des règles de filtrage entre services et un accès à Internet via NAT",
+   "duration_core_min": 90,
+   "notions": [
+    "ACL standard et étendue",
+    "Ordre des règles et refus implicite",
+    "NAT statique, dynamique, PAT",
+    "Sens d'application (in/out)",
+    "Principe du moindre privilège"
+   ],
+   "resource": "Cisco Networking Academy — ACLs and NAT",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Interdire à Comptabilité l'accès au VLAN IT",
+    "Autoriser Direction vers tout",
+    "Configurer PAT vers une interface externe",
+    "Vérifier avec show access-lists et show ip nat translations"
+   ],
+   "livrable": "Configurations ACL et NAT + tableau des flux autorisés",
+   "mini": "Écrire la matrice des flux autorisés entre services",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S3-M5-c1",
+      "host": "none",
+      "description": "show access-lists affiche des compteurs qui augmentent après les tests",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S3-M5-c2",
+      "host": "none",
+      "description": "Le trafic Comptabilité vers IT est bloqué et Direction vers IT est autorisé",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S3-M5-c3",
+      "host": "none",
+      "description": "show ip nat translations affiche des traductions PAT",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Mettre en place un tunnel WireGuard entre deux machines Linux du lab",
+   "incident": "Une ACL bloque tout le trafic : trouver la règle et l'ordre à corriger",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "network.acl",
+    "network.nat.pat"
+   ]
+  },
+  {
+   "id": "S3-M6",
+   "week": 3,
+   "day": 6,
+   "day_label": "samedi",
+   "title": "Dépannage réseau chronométré",
+   "objective": "Cinq pannes réseau diagnostiquées couche par couche avec une méthode",
+   "duration_core_min": 120,
+   "notions": [
+    "Modèle OSI en dépannage",
+    "ping, traceroute, ip, ss",
+    "Capture avec tcpdump ou Wireshark",
+    "Hypothèses et tests",
+    "Documenter la cause racine"
+   ],
+   "resource": "Documentation Wireshark + man tcpdump",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Recevoir 5 pannes (VLAN erroné, masque faux, route absente, ACL bloquante, IP en double)",
+    "Diagnostiquer chaque panne en 15 minutes maximum",
+    "Réaliser une capture pour deux d'entre elles",
+    "Rédiger la cause racine et la correction"
+   ],
+   "livrable": "Cinq fiches d'incident réseau",
+   "mini": "Résoudre une seule panne en notant les hypothèses testées",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S3-M6-c1",
+      "host": "none",
+      "description": "5 fiches d'incident avec symptôme, hypothèse, test, cause et correction",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S3-M6-c2",
+      "host": "none",
+      "description": "2 captures de paquets commentées",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Concevoir toi-même une panne pour un autre apprenant",
+   "incident": "Un site entier est injoignable sauf un poste : méthode et ordre des tests",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "network.troubleshooting",
+    "network.packet.capture"
+   ]
+  },
+  {
+   "id": "S4-M1",
+   "week": 4,
+   "day": 1,
+   "day_label": "lundi",
+   "title": "Configurer et sécuriser SSH",
+   "objective": "Un accès SSH par clé uniquement, sans connexion root et protégé contre les tentatives répétées",
+   "duration_core_min": 90,
+   "notions": [
+    "Authentification par clé publique",
+    "Directives de sshd_config",
+    "Désactiver root et mot de passe",
+    "fail2ban",
+    "Ne jamais se couper l'accès (deuxième session ouverte)"
+   ],
+   "resource": "man sshd_config + documentation OpenSSH",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Générer une paire de clés et copier la clé publique sur le serveur",
+    "Tester la connexion par clé dans une seconde session avant tout changement",
+    "Désactiver la connexion root et l'authentification par mot de passe",
+    "Installer fail2ban et configurer la prison sshd",
+    "Provoquer des échecs et vérifier le bannissement"
+   ],
+   "livrable": "Fiche runbook « Sécuriser SSH » avec erreurs rencontrées",
+   "mini": "Générer une clé et te connecter par clé, sans rien désactiver",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S4-M1-c1",
+      "host": "srv-linux",
+      "description": "Connexion root désactivée",
+      "cmd": "sudo sshd -T | grep -i '^permitrootlogin'",
+      "expect": {
+       "op": "contains",
+       "value": "permitrootlogin no"
+      },
+      "expect_text": "permitrootlogin no"
+     },
+     {
+      "id": "S4-M1-c2",
+      "host": "srv-linux",
+      "description": "Mot de passe désactivé",
+      "cmd": "sudo sshd -T | grep -i '^passwordauthentication'",
+      "expect": {
+       "op": "contains",
+       "value": "passwordauthentication no"
+      },
+      "expect_text": "passwordauthentication no"
+     },
+     {
+      "id": "S4-M1-c3",
+      "host": "srv-linux",
+      "description": "fail2ban actif",
+      "cmd": "systemctl is-active fail2ban",
+      "expect": {
+       "op": "equals",
+       "value": "active"
+      },
+      "expect_text": "active"
+     },
+     {
+      "id": "S4-M1-c4",
+      "host": "srv-linux",
+      "description": "La prison sshd existe",
+      "cmd": "sudo fail2ban-client status sshd | head -1",
+      "expect": {
+       "op": "contains",
+       "value": "Status for the jail: sshd"
+      },
+      "expect_text": "Status for the jail: sshd"
+     }
+    ]
+   },
+   "extension": "Changer le port, restreindre par groupe avec AllowGroups et comprendre le compromis",
+   "incident": "Tu t'es coupé l'accès SSH : retrouver l'accès via la console de la VM et corriger",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "linux.ssh.hardening",
+    "linux.fail2ban"
+   ]
+  },
+  {
+   "id": "S4-M2",
+   "week": 4,
+   "day": 2,
+   "day_label": "mardi",
+   "title": "Utilisateurs, groupes, sudo et permissions",
+   "objective": "Un modèle d'accès sur un serveur : groupes, dossier partagé et sudo limité",
+   "duration_core_min": 75,
+   "notions": [
+    "Utilisateurs et groupes",
+    "chmod, chown, umask",
+    "setgid sur un dossier partagé",
+    "sudoers et sudo limité",
+    "ACL POSIX"
+   ],
+   "resource": "man sudoers + man chmod",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Créer les groupes devops et support et trois utilisateurs",
+    "Créer /srv/projet avec setgid et le groupe devops",
+    "Donner à un utilisateur un sudo limité à une commande",
+    "Tester chaque accès avec chaque utilisateur"
+   ],
+   "livrable": "Fiche « Modèle d'accès Linux »",
+   "mini": "Lire les permissions d'un dossier avec ls -l et les expliquer",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S4-M2-c1",
+      "host": "srv-linux",
+      "description": "Le groupe devops existe",
+      "cmd": "getent group devops | cut -d: -f1",
+      "expect": {
+       "op": "review",
+       "value": null
+      },
+      "expect_text": "devops"
+     },
+     {
+      "id": "S4-M2-c2",
+      "host": "srv-linux",
+      "description": "Le dossier partagé a le setgid",
+      "cmd": "stat -c %a /srv/projet",
+      "expect": {
+       "op": "equals",
+       "value": 2770
+      },
+      "expect_text": "2770"
+     },
+     {
+      "id": "S4-M2-c3",
+      "host": "srv-linux",
+      "description": "sudo limité pour l'utilisateur support1",
+      "cmd": "sudo -l -U support1",
+      "expect": {
+       "op": "review",
+       "value": null
+      },
+      "expect_text": "ne liste que la commande autorisée"
+     }
+    ]
+   },
+   "extension": "Utiliser les ACL POSIX pour donner un accès en lecture à un utilisateur isolé",
+   "incident": "Un utilisateur ne peut pas écrire dans le dossier partagé : trouver pourquoi",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "linux.users.groups",
+    "linux.permissions",
+    "linux.sudo"
+   ]
+  },
+  {
+   "id": "S4-M3",
+   "week": 4,
+   "day": 3,
+   "day_label": "mercredi",
+   "title": "Services systemd et journaux",
+   "objective": "Un service personnalisé qui redémarre seul et dont tu sais lire les journaux",
+   "duration_core_min": 150,
+   "notions": [
+    "Unités systemd",
+    "Restart=on-failure",
+    "journalctl et filtres",
+    "Timers systemd vs cron",
+    "Cycle de démarrage"
+   ],
+   "resource": "man systemd.service + man journalctl",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Écrire un petit script et son unité systemd",
+    "Activer et démarrer le service, tuer le processus et observer le redémarrage",
+    "Lire les journaux avec journalctl -u et filtrer par heure",
+    "Créer un timer qui lance une tâche chaque jour"
+   ],
+   "livrable": "Unité systemd + timer + fiche",
+   "mini": "Lancer journalctl -u ssh -n 20 et expliquer ce que tu vois",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S4-M3-c1",
+      "host": "srv-linux",
+      "description": "Le service est activé",
+      "cmd": "systemctl is-enabled monapp",
+      "expect": {
+       "op": "equals",
+       "value": "enabled"
+      },
+      "expect_text": "enabled"
+     },
+     {
+      "id": "S4-M3-c2",
+      "host": "srv-linux",
+      "description": "Le service tourne",
+      "cmd": "systemctl is-active monapp",
+      "expect": {
+       "op": "equals",
+       "value": "active"
+      },
+      "expect_text": "active"
+     },
+     {
+      "id": "S4-M3-c3",
+      "host": "srv-linux",
+      "description": "Un timer est planifié",
+      "cmd": "systemctl list-timers --all | grep -c montimer",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     }
+    ]
+   },
+   "extension": "Limiter les ressources du service avec MemoryMax et tester",
+   "incident": "Le service ne démarre pas après un redémarrage : méthode d'investigation",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "linux.systemd.services",
+    "linux.logs.journalctl"
+   ]
+  },
+  {
+   "id": "S4-M4",
+   "week": 4,
+   "day": 4,
+   "day_label": "jeudi",
+   "title": "Nginx et TLS",
+   "objective": "Un site servi par Nginx en HTTPS avec en-têtes de sécurité",
+   "duration_core_min": 90,
+   "notions": [
+    "Blocs server et location",
+    "Certificats auto-signés et chaîne de confiance",
+    "Redirection HTTP vers HTTPS",
+    "En-têtes de sécurité",
+    "nginx -t et rechargement"
+   ],
+   "resource": "Documentation Nginx + guide TLS de référence",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Installer Nginx et publier une page",
+    "Générer un certificat auto-signé (ou mkcert) et activer HTTPS",
+    "Rediriger HTTP vers HTTPS",
+    "Ajouter des en-têtes de sécurité et tester la configuration"
+   ],
+   "livrable": "Configuration Nginx commentée + fiche",
+   "mini": "Installer Nginx et afficher la page par défaut",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S4-M4-c1",
+      "host": "srv-linux",
+      "description": "La configuration est valide",
+      "cmd": "sudo nginx -t 2>&1 | tail -1",
+      "expect": {
+       "op": "contains",
+       "value": "test is successful"
+      },
+      "expect_text": "test is successful"
+     },
+     {
+      "id": "S4-M4-c2",
+      "host": "srv-linux",
+      "description": "HTTPS répond",
+      "cmd": "curl -skI https://localhost | head -1",
+      "expect": {
+       "op": "equals",
+       "value": "200"
+      },
+      "expect_text": "200"
+     },
+     {
+      "id": "S4-M4-c3",
+      "host": "srv-linux",
+      "description": "HTTP redirige",
+      "cmd": "curl -sI http://localhost | head -1",
+      "expect": {
+       "op": "equals",
+       "value": "301"
+      },
+      "expect_text": "301"
+     }
+    ]
+   },
+   "extension": "Mettre en place un reverse proxy vers une application Docker",
+   "incident": "Nginx renvoie 502 : trouver si c'est l'amont, le port ou SELinux/pare-feu",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "linux.nginx",
+    "linux.tls.basics"
+   ]
+  },
+  {
+   "id": "S4-M5",
+   "week": 4,
+   "day": 5,
+   "day_label": "vendredi",
+   "title": "Superviser une machine avec Zabbix",
+   "objective": "Un serveur de supervision qui surveille ton serveur Linux et déclenche une alerte",
+   "duration_core_min": 90,
+   "notions": [
+    "Serveur, agent, hôte, modèle",
+    "Éléments, déclencheurs, alertes",
+    "Seuils et faux positifs",
+    "Tableau de bord utile",
+    "Supervision vs métrologie"
+   ],
+   "resource": "Documentation Zabbix — Docker et agent",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Déployer Zabbix avec Docker Compose",
+    "Installer l'agent sur srv-linux et l'ajouter comme hôte",
+    "Créer un déclencheur CPU supérieur à 80 % pendant 2 minutes",
+    "Générer de la charge et vérifier l'alerte"
+   ],
+   "livrable": "Supervision en place + fiche « Superviser un hôte »",
+   "mini": "Ajouter un hôte et afficher son graphique CPU",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S4-M5-c1",
+      "host": "srv-linux",
+      "description": "Les conteneurs Zabbix tournent",
+      "cmd": "docker ps --format '{{.Names}}' | grep -ci zabbix",
+      "expect": {
+       "op": "gte",
+       "value": 2
+      },
+      "expect_text": ">= 2"
+     },
+     {
+      "id": "S4-M5-c2",
+      "host": "srv-linux",
+      "description": "L'agent est actif",
+      "cmd": "systemctl is-active zabbix-agent2 || systemctl is-active zabbix-agent",
+      "expect": {
+       "op": "equals",
+       "value": "active"
+      },
+      "expect_text": "active"
+     },
+     {
+      "id": "S4-M5-c3",
+      "host": "none",
+      "description": "Une alerte CPU est déclenchée puis résolue (capture d'écran)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Ajouter une alerte sur l'espace disque et sur un service précis",
+   "incident": "L'hôte apparaît « indisponible » alors que la machine fonctionne : méthode d'investigation",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "monitoring.zabbix",
+    "monitoring.alerting"
+   ]
+  },
+  {
+   "id": "S4-M6",
+   "week": 4,
+   "day": 6,
+   "day_label": "samedi",
+   "title": "Sauvegardes Linux et test de restauration",
+   "objective": "Une sauvegarde automatique avec rotation et une restauration prouvée",
+   "duration_core_min": 120,
+   "notions": [
+    "rsync et sauvegarde incrémentale",
+    "cron et journalisation",
+    "Rotation et rétention",
+    "Restauration testée",
+    "Règle 3-2-1"
+   ],
+   "resource": "man rsync + man 5 crontab",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Écrire un script de sauvegarde de /srv/projet avec rsync",
+    "Planifier avec cron et journaliser",
+    "Supprimer volontairement des fichiers puis restaurer",
+    "Comparer l'original et la restauration avec diff"
+   ],
+   "livrable": "Script de sauvegarde + procédure de restauration testée",
+   "mini": "Sauvegarder un dossier avec rsync et vérifier le contenu",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S4-M6-c1",
+      "host": "srv-linux",
+      "description": "La tâche cron de sauvegarde existe",
+      "cmd": "crontab -l | grep -c backup",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S4-M6-c2",
+      "host": "srv-linux",
+      "description": "Au moins une sauvegarde existe",
+      "cmd": "ls /backup | wc -l",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S4-M6-c3",
+      "host": "srv-linux",
+      "description": "La restauration est identique",
+      "cmd": "diff -r /srv/projet /tmp/restore && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     }
+    ]
+   },
+   "extension": "Ajouter la rotation sur 7 jours et une alerte si la sauvegarde échoue",
+   "incident": "La sauvegarde de cette nuit n'a pas tourné : retrouver pourquoi",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "linux.backup.rsync",
+    "linux.cron"
+   ]
+  },
+  {
+   "id": "S5-M1",
+   "week": 5,
+   "day": 1,
+   "day_label": "lundi",
+   "title": "Bash professionnel : un script de contrôle de santé",
+   "objective": "Un script healthcheck.sh robuste qui contrôle disque, mémoire et services et renvoie un code de sortie utile",
+   "duration_core_min": 90,
+   "notions": [
+    "set -euo pipefail",
+    "Variables, conditions et boucles",
+    "Fonctions et arguments",
+    "Codes de sortie",
+    "ShellCheck"
+   ],
+   "resource": "Guide Bash de référence + documentation ShellCheck",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Écrire le script avec arguments et seuils configurables",
+    "Contrôler disque, mémoire et deux services",
+    "Renvoyer 0 si tout va bien, 1 sinon, avec un message clair",
+    "Corriger tous les avertissements de ShellCheck"
+   ],
+   "livrable": "healthcheck.sh + fiche",
+   "mini": "Écrire un script de 5 lignes qui affiche l'espace disque libre",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S5-M1-c1",
+      "host": "srv-linux",
+      "description": "Syntaxe valide",
+      "cmd": "bash -n ~/scripts/healthcheck.sh && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S5-M1-c2",
+      "host": "srv-linux",
+      "description": "ShellCheck sans erreur",
+      "cmd": "shellcheck ~/scripts/healthcheck.sh && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S5-M1-c3",
+      "host": "srv-linux",
+      "description": "Le script renvoie un code de sortie",
+      "cmd": "~/scripts/healthcheck.sh >/dev/null; echo $?",
+      "expect": {
+       "op": "one_of",
+       "value": [
+        "0",
+        "1"
+       ]
+      },
+      "expect_text": "0 ou 1"
+     }
+    ]
+   },
+   "extension": "Ajouter une sortie JSON optionnelle",
+   "incident": "Le script renvoie 0 alors qu'un service est arrêté : trouver le bug",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "bash.scripting",
+    "bash.quality.shellcheck"
+   ]
+  },
+  {
+   "id": "S5-M2",
+   "week": 5,
+   "day": 2,
+   "day_label": "mardi",
+   "title": "Bash : analyser des journaux avec grep, awk et sed",
+   "objective": "Un script qui extrait les adresses sources des échecs de connexion SSH et les classe",
+   "duration_core_min": 75,
+   "notions": [
+    "grep, cut, awk, sed",
+    "sort | uniq -c",
+    "Redirections et tubes",
+    "Expressions régulières de base",
+    "Lire /var/log/auth.log"
+   ],
+   "resource": "man awk + guide des expressions régulières",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Repérer les lignes d'échec de connexion dans auth.log",
+    "Extraire les adresses IP",
+    "Compter et classer par fréquence",
+    "Écrire le script ssh_failures.sh avec le top 10"
+   ],
+   "livrable": "ssh_failures.sh + fiche",
+   "mini": "Compter le nombre de lignes contenant « Failed password »",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S5-M2-c1",
+      "host": "srv-linux",
+      "description": "Le script s'exécute",
+      "cmd": "bash ~/scripts/ssh_failures.sh >/dev/null && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S5-M2-c2",
+      "host": "none",
+      "description": "La sortie affiche un top 10 trié par nombre d'échecs, avec adresse IP",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Ajouter un filtre par date en argument",
+   "incident": "Le journal a été tourné par logrotate : adapter le script pour lire les archives",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "bash.text.processing",
+    "linux.logs.auth"
+   ]
+  },
+  {
+   "id": "S5-M3",
+   "week": 5,
+   "day": 3,
+   "day_label": "mercredi",
+   "title": "Bash : automatiser une sauvegarde avec verrou et notification",
+   "objective": "Un script de sauvegarde qui évite les exécutions simultanées, journalise et notifie en cas d'échec",
+   "duration_core_min": 150,
+   "notions": [
+    "Fichier de verrou (flock)",
+    "trap et nettoyage",
+    "Journalisation horodatée",
+    "Notification par webhook ou e-mail",
+    "Idempotence"
+   ],
+   "resource": "man flock + man bash (trap)",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Ajouter un verrou avec flock",
+    "Capturer les erreurs avec trap et nettoyer",
+    "Écrire un journal horodaté",
+    "Envoyer une notification en cas d'échec"
+   ],
+   "livrable": "backup.sh amélioré + fiche",
+   "mini": "Ajouter un journal horodaté à ton script de sauvegarde",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S5-M3-c1",
+      "host": "srv-linux",
+      "description": "Le script utilise un verrou",
+      "cmd": "grep -c flock ~/scripts/backup.sh",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S5-M3-c2",
+      "host": "srv-linux",
+      "description": "Le script utilise trap",
+      "cmd": "grep -c trap ~/scripts/backup.sh",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S5-M3-c3",
+      "host": "srv-linux",
+      "description": "Un journal existe",
+      "cmd": "ls /var/log/backup* ~/logs/backup* 2>/dev/null | wc -l",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     }
+    ]
+   },
+   "extension": "Chiffrer la sauvegarde avant copie",
+   "incident": "Deux sauvegardes se lancent en même temps : reproduire puis empêcher",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "bash.automation",
+    "linux.reliability"
+   ]
+  },
+  {
+   "id": "S5-M4",
+   "week": 5,
+   "day": 4,
+   "day_label": "jeudi",
+   "title": "PowerShell professionnel : un rapport d'audit Active Directory",
+   "objective": "Un script qui produit un rapport des comptes inactifs et des comptes sans expiration de mot de passe",
+   "duration_core_min": 90,
+   "notions": [
+    "Fonctions avancées et paramètres",
+    "Pipeline et filtrage",
+    "try/catch",
+    "Export CSV et JSON",
+    "PSScriptAnalyzer"
+   ],
+   "resource": "Microsoft Learn — PowerShell scripting",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Lister les comptes sans connexion depuis 90 jours",
+    "Lister les comptes dont le mot de passe n'expire jamais",
+    "Exporter en CSV et JSON",
+    "Passer PSScriptAnalyzer et corriger les alertes"
+   ],
+   "livrable": "ad-audit.ps1 + rapport exemple",
+   "mini": "Lister les comptes inactifs depuis 90 jours à l'écran",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S5-M4-c1",
+      "host": "DC01",
+      "description": "Le rapport CSV existe",
+      "cmd": "Test-Path C:\\Scripts\\reports\\ad-audit.csv",
+      "expect": {
+       "op": "equals",
+       "value": "True"
+      },
+      "expect_text": "True"
+     },
+     {
+      "id": "S5-M4-c2",
+      "host": "DC01",
+      "description": "Aucune erreur d'analyse du script",
+      "cmd": "(Invoke-ScriptAnalyzer C:\\Scripts\\ad-audit.ps1 -Severity Error).Count",
+      "expect": {
+       "op": "equals",
+       "value": 0
+      },
+      "expect_text": "0"
+     }
+    ]
+   },
+   "extension": "Envoyer le rapport par e-mail ou le déposer dans un partage",
+   "incident": "Le script plante sur un compte sans dernière connexion : gérer les valeurs nulles",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "powershell.advanced",
+    "windows.ad.audit"
+   ]
+  },
+  {
+   "id": "S5-M5",
+   "week": 5,
+   "day": 5,
+   "day_label": "vendredi",
+   "title": "Git professionnel : branches, fusions et conflits",
+   "objective": "Un dépôt homelab-docs avec historique propre, branches et un conflit résolu",
+   "duration_core_min": 90,
+   "notions": [
+    "Commit, branche, fusion",
+    "Merge vs rebase",
+    "Résolution de conflit",
+    ".gitignore",
+    "Messages de commit clairs"
+   ],
+   "resource": "Pro Git (livre en ligne) — chapitres branches et fusion",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Créer le dépôt et au moins 10 commits clairs",
+    "Travailler sur deux branches qui modifient la même ligne",
+    "Provoquer puis résoudre un conflit de fusion",
+    "Ajouter .gitignore et créer un tag de version"
+   ],
+   "livrable": "Dépôt local avec historique commenté",
+   "mini": "Faire 3 commits avec des messages clairs",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S5-M5-c1",
+      "host": "local",
+      "description": "Au moins 10 commits",
+      "cmd": "git -C ~/homelab-docs rev-list --count HEAD",
+      "expect": {
+       "op": "gte",
+       "value": 10
+      },
+      "expect_text": ">= 10"
+     },
+     {
+      "id": "S5-M5-c2",
+      "host": "local",
+      "description": "Une fusion existe dans l'historique",
+      "cmd": "git -C ~/homelab-docs log --merges --oneline | wc -l",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S5-M5-c3",
+      "host": "local",
+      "description": "Un tag existe",
+      "cmd": "git -C ~/homelab-docs tag | wc -l",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     }
+    ]
+   },
+   "extension": "Refaire la fusion avec rebase et comparer l'historique",
+   "incident": "Tu as commité un mot de passe : retirer le secret de l'historique et le révoquer",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "git.branching",
+    "git.conflicts"
+   ]
+  },
+  {
+   "id": "S5-M6",
+   "week": 5,
+   "day": 6,
+   "day_label": "samedi",
+   "title": "Git et GitHub : un dépôt de portfolio propre",
+   "objective": "Un dépôt public avec README, procédures et aucun secret",
+   "duration_core_min": 120,
+   "notions": [
+    "Pull request et revue",
+    "README utile",
+    "Issues et étiquettes",
+    "Détection de secrets (gitleaks)",
+    "Licence"
+   ],
+   "resource": "Documentation GitHub — pull requests et README",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Publier homelab-docs sur GitHub",
+    "Écrire un README clair : objectif, architecture, comment reproduire",
+    "Ouvrir une pull request depuis une branche et la fusionner",
+    "Passer gitleaks sur l'historique"
+   ],
+   "livrable": "Dépôt public avec README + premier brouillon de post LinkedIn",
+   "mini": "Écrire le résumé d'une phrase de ton dépôt",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S5-M6-c1",
+      "host": "local",
+      "description": "Aucun secret détecté",
+      "cmd": "gitleaks detect --source ~/homelab-docs --no-banner && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S5-M6-c2",
+      "host": "local",
+      "description": "Un README existe",
+      "cmd": "test -s ~/homelab-docs/README.md && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S5-M6-c3",
+      "host": "none",
+      "description": "Dépôt public accessible et au moins une pull request fusionnée",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Ajouter un schéma d'architecture au README",
+   "incident": "Un recruteur ouvre ton dépôt 2 minutes : que doit-il comprendre ? Réécrire l'en-tête du README",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "git.github.workflow",
+    "security.secrets.scanning"
+   ]
+  },
+  {
+   "id": "S6-M1",
+   "week": 6,
+   "day": 1,
+   "day_label": "lundi",
+   "title": "Python pour l'exploitation : un rapport système en JSON",
+   "objective": "Un script Python avec arguments qui produit l'état d'une machine en JSON",
+   "duration_core_min": 90,
+   "notions": [
+    "Environnement virtuel",
+    "argparse",
+    "subprocess et psutil",
+    "JSON",
+    "Gestion des erreurs"
+   ],
+   "resource": "Documentation Python — argparse et subprocess",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Créer un environnement virtuel",
+    "Collecter CPU, mémoire, disque et services avec psutil",
+    "Ajouter les arguments --json et --threshold",
+    "Valider la sortie avec un outil JSON"
+   ],
+   "livrable": "sysreport.py + fiche",
+   "mini": "Afficher le taux d'utilisation du CPU depuis Python",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S6-M1-c1",
+      "host": "srv-linux",
+      "description": "La sortie est un JSON valide",
+      "cmd": "python3 ~/scripts/sysreport.py --json | python3 -m json.tool >/dev/null && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S6-M1-c2",
+      "host": "srv-linux",
+      "description": "Un environnement virtuel existe",
+      "cmd": "test -d ~/scripts/.venv && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     }
+    ]
+   },
+   "extension": "Ajouter des tests avec pytest",
+   "incident": "Le script plante si un service n'existe pas : gérer proprement",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "python.ops.scripting",
+    "python.venv"
+   ]
+  },
+  {
+   "id": "S6-M2",
+   "week": 6,
+   "day": 2,
+   "day_label": "mardi",
+   "title": "Python : automatiser avec une API",
+   "objective": "Un script qui crée un ticket GLPI ou interroge l'API GitHub avec gestion d'erreurs",
+   "duration_core_min": 75,
+   "notions": [
+    "Requêtes HTTP avec requests",
+    "Authentification par jeton",
+    "Codes de statut et erreurs",
+    "Jetons hors du code (variables d'environnement)",
+    "Timeouts"
+   ],
+   "resource": "Documentation de la bibliothèque requests + documentation de l'API choisie",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Lire la documentation de l'API et obtenir un jeton",
+    "Stocker le jeton dans une variable d'environnement",
+    "Écrire le script avec timeout et gestion des erreurs",
+    "Tester un succès et un échec volontaire"
+   ],
+   "livrable": "api_client.py + fiche",
+   "mini": "Faire une requête GET vers une API publique et afficher le code de statut",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S6-M2-c1",
+      "host": "local",
+      "description": "Aucun jeton dans le code",
+      "cmd": "grep -rEi \"(token|secret)[[:space:]]*=[[:space:]]*['\\\"][A-Za-z0-9]{16,}\" ~/scripts | wc -l",
+      "expect": {
+       "op": "equals",
+       "value": 0
+      },
+      "expect_text": "0"
+     },
+     {
+      "id": "S6-M2-c2",
+      "host": "none",
+      "description": "Le script réussit une création ou lecture et gère proprement une erreur 401 ou 404",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Ajouter une limitation du nombre de tentatives avec attente croissante",
+   "incident": "L'API répond 429 : adapter le script",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "python.http.api",
+    "security.secrets.handling"
+   ]
+  },
+  {
+   "id": "S6-M3",
+   "week": 6,
+   "day": 3,
+   "day_label": "mercredi",
+   "title": "Ansible : inventaire, commandes ponctuelles et premier playbook",
+   "objective": "Un playbook idempotent qui installe des paquets et crée des utilisateurs sur tes serveurs",
+   "duration_core_min": 150,
+   "notions": [
+    "Inventaire",
+    "Modules et commandes ad hoc",
+    "Playbook YAML",
+    "Idempotence",
+    "--check et --diff"
+   ],
+   "resource": "Documentation Ansible — Getting started",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Écrire l'inventaire et tester ansible all -m ping",
+    "Écrire un playbook qui installe des paquets et crée un utilisateur",
+    "Le lancer deux fois et constater changed=0 la seconde fois",
+    "Utiliser --check --diff avant d'appliquer"
+   ],
+   "livrable": "inventory + site.yml + fiche",
+   "mini": "Lancer un module ping sur ton serveur",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S6-M3-c1",
+      "host": "local",
+      "description": "Les hôtes répondent",
+      "cmd": "ansible all -i inventory -m ping | grep -c SUCCESS",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S6-M3-c2",
+      "host": "local",
+      "description": "Le playbook est idempotent",
+      "cmd": "ansible-playbook -i inventory site.yml | grep -E 'changed=[0-9]+' | tail -1",
+      "expect": {
+       "op": "contains",
+       "value": "changed=0"
+      },
+      "expect_text": "changed=0"
+     },
+     {
+      "id": "S6-M3-c3",
+      "host": "local",
+      "description": "Le playbook passe le contrôle de syntaxe",
+      "cmd": "ansible-playbook -i inventory site.yml --syntax-check && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     }
+    ]
+   },
+   "extension": "Ajouter des variables de groupe et une boucle",
+   "incident": "Le playbook modifie à chaque exécution : trouver la tâche non idempotente",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "ansible.basics",
+    "ansible.idempotence"
+   ]
+  },
+  {
+   "id": "S6-M4",
+   "week": 6,
+   "day": 4,
+   "day_label": "jeudi",
+   "title": "Ansible : rôles, templates et handlers",
+   "objective": "Un rôle nginx réutilisable avec template Jinja et rechargement conditionnel",
+   "duration_core_min": 90,
+   "notions": [
+    "Structure d'un rôle",
+    "Variables et précédence",
+    "Templates Jinja2",
+    "Handlers",
+    "ansible-lint"
+   ],
+   "resource": "Documentation Ansible — Roles",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Créer le rôle nginx avec ansible-galaxy init",
+    "Écrire un template de configuration alimenté par des variables",
+    "Utiliser un handler pour recharger Nginx seulement en cas de changement",
+    "Passer ansible-lint"
+   ],
+   "livrable": "Rôle nginx + fiche",
+   "mini": "Créer la structure d'un rôle vide",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S6-M4-c1",
+      "host": "local",
+      "description": "ansible-lint sans erreur",
+      "cmd": "ansible-lint roles/nginx && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S6-M4-c2",
+      "host": "local",
+      "description": "Deux exécutions successives : aucun changement",
+      "cmd": "ansible-playbook -i inventory site.yml | grep -E 'changed=[0-9]+' | tail -1",
+      "expect": {
+       "op": "contains",
+       "value": "changed=0"
+      },
+      "expect_text": "changed=0"
+     },
+     {
+      "id": "S6-M4-c3",
+      "host": "srv-linux",
+      "description": "Le contenu vient du template",
+      "cmd": "curl -s http://localhost | head -1",
+      "expect": {
+       "op": "review",
+       "value": null
+      },
+      "expect_text": "contenu défini par la variable"
+     }
+    ]
+   },
+   "extension": "Ajouter des tests avec Molecule (conteneur)",
+   "incident": "Le handler ne se déclenche pas : trouver pourquoi",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "ansible.roles",
+    "ansible.templates.jinja"
+   ]
+  },
+  {
+   "id": "S6-M5",
+   "week": 6,
+   "day": 5,
+   "day_label": "vendredi",
+   "title": "Ansible : le durcissement SSH en rôle, avec secrets chiffrés",
+   "objective": "Transformer la mission SSH en rôle Ansible et protéger les secrets avec Ansible Vault",
+   "duration_core_min": 90,
+   "notions": [
+    "Réutiliser un travail manuel en code",
+    "Ansible Vault",
+    "lineinfile vs template",
+    "Valider avant de redémarrer (sshd -t)",
+    "Ne jamais se couper l'accès"
+   ],
+   "resource": "Documentation Ansible — Vault",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Écrire le rôle ssh_hardening depuis ta fiche de la mission S4-M1",
+    "Valider la configuration avec sshd -t avant le redémarrage",
+    "Chiffrer un secret avec ansible-vault",
+    "Appliquer le rôle et vérifier avec sshd -T"
+   ],
+   "livrable": "Rôle ssh_hardening + fichier chiffré",
+   "mini": "Chiffrer un fichier avec ansible-vault et le relire",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S6-M5-c1",
+      "host": "srv-linux",
+      "description": "Connexion root désactivée",
+      "cmd": "sudo sshd -T | grep -i '^permitrootlogin'",
+      "expect": {
+       "op": "contains",
+       "value": "permitrootlogin no"
+      },
+      "expect_text": "permitrootlogin no"
+     },
+     {
+      "id": "S6-M5-c2",
+      "host": "local",
+      "description": "Le fichier de secrets est chiffré",
+      "cmd": "head -1 group_vars/all/vault.yml",
+      "expect": {
+       "op": "contains",
+       "value": "$ANSIBLE_VAULT"
+      },
+      "expect_text": "$ANSIBLE_VAULT"
+     },
+     {
+      "id": "S6-M5-c3",
+      "host": "local",
+      "description": "Aucun secret en clair dans le dépôt",
+      "cmd": "gitleaks detect --no-banner && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     }
+    ]
+   },
+   "extension": "Ajouter un test automatique qui échoue si root est autorisé",
+   "incident": "Le playbook coupe ta connexion SSH : comment l'éviter et récupérer",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "ansible.vault",
+    "linux.ssh.automation"
+   ]
+  },
+  {
+   "id": "S6-M6",
+   "week": 6,
+   "day": 6,
+   "day_label": "samedi",
+   "title": "Point de décision métier : le radar des offres",
+   "objective": "Une décision documentée sur la voie à privilégier, fondée sur des offres réelles",
+   "duration_core_min": 150,
+   "notions": [
+    "Lire une offre d'emploi",
+    "Compétences demandées vs acquises",
+    "Écarts à combler",
+    "Trois métiers voisins (support/sysadmin, DevOps, cloud/sécurité)",
+    "Entretien d'information"
+   ],
+   "resource": "Offres d'emploi réelles (Cameroun, Afrique francophone, télétravail)",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Collecter 30 offres et noter les compétences demandées",
+    "Compter la fréquence de chaque compétence",
+    "Comparer avec ta carte de compétences",
+    "Planifier 3 échanges avec des professionnels",
+    "Rédiger la décision et le plan des semaines 7 à 12"
+   ],
+   "livrable": "radar-offres.md + décision-métier.md",
+   "mini": "Analyser 3 offres et noter les 5 compétences les plus citées",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S6-M6-c1",
+      "host": "none",
+      "description": "Fichier radar-offres.md avec au moins 30 offres et fréquence des compétences",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S6-M6-c2",
+      "host": "none",
+      "description": "Note de décision : voie choisie, raisons, 3 écarts à combler",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S6-M6-c3",
+      "host": "none",
+      "description": "Trois échanges avec des professionnels planifiés",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Préparer 5 questions à poser à un professionnel",
+   "incident": "Les offres demandent une compétence que tu n'as pas : décider si elle entre dans le plan",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "career.market.analysis",
+    "career.decision"
+   ]
+  },
+  {
+   "id": "S7-M1",
+   "week": 7,
+   "day": 1,
+   "day_label": "lundi",
+   "title": "Dockerfile propre : multi-étapes, utilisateur non root",
+   "objective": "Une image légère, construite en deux étapes et exécutée sans les droits root",
+   "duration_core_min": 90,
+   "notions": [
+    "Couches et cache de build",
+    "Multi-stage build",
+    "Utilisateur non root",
+    ".dockerignore",
+    "hadolint"
+   ],
+   "resource": "Docker Docs — Best practices for writing Dockerfiles",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Écrire un Dockerfile naïf pour une petite application",
+    "Le transformer en build multi-étapes",
+    "Ajouter un utilisateur non root et un .dockerignore",
+    "Comparer les tailles avant et après"
+   ],
+   "livrable": "Dockerfile commenté + comparaison des tailles",
+   "mini": "Construire une image simple et la lancer",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S7-M1-c1",
+      "host": "local",
+      "description": "L'image n'est pas exécutée en root",
+      "cmd": "docker run --rm monapp:1.0 id -u",
+      "expect": {
+       "op": "ne",
+       "value": 0
+      },
+      "expect_text": "différent de 0"
+     },
+     {
+      "id": "S7-M1-c2",
+      "host": "local",
+      "description": "hadolint sans erreur",
+      "cmd": "hadolint Dockerfile && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S7-M1-c3",
+      "host": "local",
+      "description": "Un .dockerignore existe",
+      "cmd": "test -s .dockerignore && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     }
+    ]
+   },
+   "extension": "Réduire encore l'image avec une base minimale",
+   "incident": "Le build est lent à chaque modification : réorganiser les couches",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "docker.dockerfile",
+    "docker.security.nonroot"
+   ]
+  },
+  {
+   "id": "S7-M2",
+   "week": 7,
+   "day": 2,
+   "day_label": "mardi",
+   "title": "Docker Compose multi-services",
+   "objective": "Application, base et reverse proxy sur des réseaux dédiés avec contrôles de santé",
+   "duration_core_min": 75,
+   "notions": [
+    "Services, réseaux, volumes",
+    "healthcheck et depends_on",
+    "Variables d'environnement et secrets",
+    "Résolution DNS entre conteneurs",
+    "docker compose config"
+   ],
+   "resource": "Docker Docs — Compose file reference",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Écrire un compose avec application, base et proxy",
+    "Isoler la base sur un réseau interne",
+    "Ajouter des healthchecks",
+    "Sortir les mots de passe du fichier"
+   ],
+   "livrable": "docker-compose.yml commenté + fiche",
+   "mini": "Lancer un compose à deux services et lister l'état",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S7-M2-c1",
+      "host": "local",
+      "description": "Le fichier compose est valide",
+      "cmd": "docker compose config -q && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S7-M2-c2",
+      "host": "local",
+      "description": "Les services sont sains",
+      "cmd": "docker compose ps --format '{{.Health}}' | grep -c healthy",
+      "expect": {
+       "op": "gte",
+       "value": 2
+      },
+      "expect_text": ">= 2"
+     },
+     {
+      "id": "S7-M2-c3",
+      "host": "local",
+      "description": "Aucun mot de passe en clair",
+      "cmd": "grep -ciE 'password:\\s*[a-z0-9]+' docker-compose.yml",
+      "expect": {
+       "op": "equals",
+       "value": 0
+      },
+      "expect_text": "0"
+     }
+    ]
+   },
+   "extension": "Utiliser des secrets Docker plutôt que des variables",
+   "incident": "L'application démarre avant la base et plante : corriger l'ordre et l'attente",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "docker.compose.advanced",
+    "docker.networking"
+   ]
+  },
+  {
+   "id": "S7-M3",
+   "week": 7,
+   "day": 3,
+   "day_label": "mercredi",
+   "title": "Persistance, réseau et sauvegarde de données conteneurisées",
+   "objective": "Une base dont les données survivent, avec sauvegarde et restauration prouvées",
+   "duration_core_min": 150,
+   "notions": [
+    "Volumes vs bind mounts",
+    "Réseaux définis par l'utilisateur",
+    "Sauvegarde logique (pg_dump)",
+    "Restauration",
+    "Données et mises à jour d'images"
+   ],
+   "resource": "Docker Docs — Volumes + documentation PostgreSQL (pg_dump)",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Lancer PostgreSQL avec un volume nommé et insérer des données",
+    "Détruire et recréer le conteneur sans perdre les données",
+    "Sauvegarder avec pg_dump et restaurer dans une base neuve",
+    "Comparer le nombre de lignes avant et après"
+   ],
+   "livrable": "Procédure de sauvegarde et restauration testée",
+   "mini": "Insérer 3 lignes, supprimer le conteneur et vérifier la persistance",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S7-M3-c1",
+      "host": "local",
+      "description": "Le volume existe",
+      "cmd": "docker volume ls --format '{{.Name}}' | grep -c pgdata",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S7-M3-c2",
+      "host": "local",
+      "description": "Un fichier de sauvegarde existe",
+      "cmd": "ls backups/*.sql | wc -l",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S7-M3-c3",
+      "host": "none",
+      "description": "Nombre de lignes identique avant la sauvegarde et après la restauration (capture)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Planifier la sauvegarde avec un conteneur dédié",
+   "incident": "Après une mise à jour de l'image, la base est vide : comprendre pourquoi",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "docker.volumes",
+    "database.backup.restore"
+   ]
+  },
+  {
+   "id": "S7-M4",
+   "week": 7,
+   "day": 4,
+   "day_label": "jeudi",
+   "title": "Registre d'images et analyse de vulnérabilités",
+   "objective": "Une image publiée dans GHCR avec versions et sans vulnérabilité critique corrigeable",
+   "duration_core_min": 90,
+   "notions": [
+    "Étiquettes et versionnement",
+    "Registre (GHCR)",
+    "Authentification au registre",
+    "Analyse avec Trivy",
+    "Mettre à jour une base d'image"
+   ],
+   "resource": "Documentation GitHub Container Registry + documentation Trivy",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Étiqueter l'image avec une version",
+    "La publier dans GHCR",
+    "La récupérer depuis une autre machine",
+    "Analyser avec Trivy et corriger une vulnérabilité"
+   ],
+   "livrable": "Image publiée + rapport Trivy avant/après",
+   "mini": "Étiqueter une image avec deux versions",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S7-M4-c1",
+      "host": "local",
+      "description": "Aucune vulnérabilité critique corrigeable",
+      "cmd": "trivy image --severity CRITICAL --ignore-unfixed --exit-code 1 monapp:1.0 && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S7-M4-c2",
+      "host": "none",
+      "description": "Image visible dans GHCR avec au moins une étiquette de version",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Signer l'image ou générer une liste des composants (SBOM)",
+   "incident": "Une vulnérabilité critique est signalée dans ta base d'image : décider et corriger",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "docker.registry",
+    "security.container.scanning"
+   ]
+  },
+  {
+   "id": "S7-M5",
+   "week": 7,
+   "day": 5,
+   "day_label": "vendredi",
+   "title": "Déboguer des conteneurs : 5 pannes",
+   "objective": "Cinq pannes de conteneurs diagnostiquées avec les bons outils",
+   "duration_core_min": 75,
+   "notions": [
+    "docker logs, exec, inspect, stats",
+    "Limites de ressources",
+    "Politiques de redémarrage",
+    "Codes de sortie",
+    "Méthode de diagnostic"
+   ],
+   "resource": "Docker Docs — Troubleshooting",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Provoquer 5 pannes (port occupé, variable manquante, mémoire, droits, réseau)",
+    "Diagnostiquer chacune avec logs, inspect et exec",
+    "Noter la cause et la correction",
+    "Poser une limite mémoire et observer"
+   ],
+   "livrable": "Cinq fiches d'incident Docker",
+   "mini": "Lire les logs d'un conteneur qui plante et expliquer la cause",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S7-M5-c1",
+      "host": "none",
+      "description": "5 fiches d'incident avec symptôme, outil utilisé, cause et correction",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S7-M5-c2",
+      "host": "local",
+      "description": "Une limite mémoire est appliquée",
+      "cmd": "docker inspect --format '{{.HostConfig.Memory}}' monapp",
+      "expect": {
+       "op": "gt",
+       "value": 0
+      },
+      "expect_text": "> 0"
+     }
+    ]
+   },
+   "extension": "Écrire un script qui détecte un conteneur en redémarrage répété",
+   "incident": "Un conteneur redémarre en boucle : méthode et ordre des vérifications",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "docker.troubleshooting",
+    "docker.resources"
+   ]
+  },
+  {
+   "id": "S7-M6",
+   "week": 7,
+   "day": 6,
+   "day_label": "samedi",
+   "title": "Mini-projet : une application déployée derrière HTTPS",
+   "objective": "Une petite application avec base, proxy HTTPS et documentation prête à montrer",
+   "duration_core_min": 150,
+   "notions": [
+    "Architecture simple",
+    "Reverse proxy et TLS",
+    "Variables et secrets",
+    "Documentation de reproduction",
+    "Démonstration"
+   ],
+   "resource": "Documentation Caddy ou Nginx",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Assembler application, base et proxy HTTPS en compose",
+    "Ajouter une route de santé",
+    "Écrire un README avec schéma et commandes de reproduction",
+    "Tester depuis une machine propre"
+   ],
+   "livrable": "Dépôt « mini-projet-docker » + README",
+   "mini": "Lancer ton projet depuis un dossier vide avec une seule commande",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S7-M6-c1",
+      "host": "local",
+      "description": "Le service HTTPS répond",
+      "cmd": "curl -skI https://localhost | head -1",
+      "expect": {
+       "op": "equals",
+       "value": "200"
+      },
+      "expect_text": "200"
+     },
+     {
+      "id": "S7-M6-c2",
+      "host": "local",
+      "description": "Route de santé disponible",
+      "cmd": "curl -sk https://localhost/health",
+      "expect": {
+       "op": "equals",
+       "value": "ok"
+      },
+      "expect_text": "ok"
+     },
+     {
+      "id": "S7-M6-c3",
+      "host": "none",
+      "description": "README avec schéma d'architecture et procédure testée depuis zéro",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Ajouter une sauvegarde planifiée de la base",
+   "incident": "Un collègue clone ton dépôt et n'y arrive pas : améliorer le README jusqu'à ce que ça marche",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "docker.project",
+    "docs.reproducibility"
+   ]
+  },
+  {
+   "id": "S8-M1",
+   "week": 8,
+   "day": 1,
+   "day_label": "lundi",
+   "title": "GitHub Actions : un pipeline de vérification",
+   "objective": "Un workflow qui lance les contrôles de qualité à chaque push",
+   "duration_core_min": 90,
+   "notions": [
+    "Workflow, job, étape",
+    "Événements déclencheurs",
+    "Cache et matrices",
+    "Secrets d'un dépôt",
+    "Lire un échec de pipeline"
+   ],
+   "resource": "Documentation GitHub Actions — Quickstart",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Créer un workflow qui lance lint et tests",
+    "Le déclencher par push et pull request",
+    "Provoquer un échec et le corriger",
+    "Ajouter un badge d'état au README"
+   ],
+   "livrable": "Workflow + fiche",
+   "mini": "Créer un workflow qui affiche un message",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S8-M1-c1",
+      "host": "local",
+      "description": "Un workflow existe",
+      "cmd": "ls .github/workflows/*.yml | wc -l",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S8-M1-c2",
+      "host": "local",
+      "description": "La dernière exécution a réussi",
+      "cmd": "gh run list --limit 1 --json conclusion --jq '.[0].conclusion'",
+      "expect": {
+       "op": "equals",
+       "value": "success"
+      },
+      "expect_text": "success"
+     }
+    ]
+   },
+   "extension": "Ajouter une matrice de versions",
+   "incident": "Le pipeline échoue seulement sur GitHub : trouver la différence avec ta machine",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "cicd.github.actions",
+    "cicd.quality.gates"
+   ]
+  },
+  {
+   "id": "S8-M2",
+   "week": 8,
+   "day": 2,
+   "day_label": "mardi",
+   "title": "CI : construire et publier une image Docker",
+   "objective": "Un pipeline qui construit l'image, la scanne et la publie sur un tag",
+   "duration_core_min": 75,
+   "notions": [
+    "Build avec cache",
+    "Authentification à GHCR avec le jeton du workflow",
+    "Publication sur étiquette de version",
+    "Analyse intégrée au pipeline",
+    "Permissions minimales"
+   ],
+   "resource": "Documentation GitHub — Publishing Docker images",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Ajouter l'étape de build et de publication",
+    "Déclencher sur un tag vX.Y.Z",
+    "Ajouter l'analyse Trivy avant publication",
+    "Restreindre les permissions du workflow"
+   ],
+   "livrable": "Workflow de publication + fiche",
+   "mini": "Pousser un tag et observer le déclenchement",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S8-M2-c1",
+      "host": "local",
+      "description": "Le workflow de publication existe",
+      "cmd": "grep -l 'docker/build-push-action' .github/workflows/*.yml | wc -l",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S8-M2-c2",
+      "host": "local",
+      "description": "Les permissions sont déclarées",
+      "cmd": "grep -c 'permissions:' .github/workflows/*.yml | head -1",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S8-M2-c3",
+      "host": "none",
+      "description": "Image publiée avec une étiquette de version visible dans GHCR",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Publier aussi pour deux architectures",
+   "incident": "La publication échoue avec une erreur d'autorisation : trouver la cause",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "cicd.docker.publish",
+    "cicd.permissions"
+   ]
+  },
+  {
+   "id": "S8-M3",
+   "week": 8,
+   "day": 3,
+   "day_label": "mercredi",
+   "title": "CD : déployer par SSH et revenir en arrière",
+   "objective": "Un déploiement automatique sur une VM avec retour arrière documenté",
+   "duration_core_min": 150,
+   "notions": [
+    "Déploiement par docker compose pull/up",
+    "Clé SSH dédiée au déploiement",
+    "Environnements GitHub",
+    "Retour arrière",
+    "Vérification après déploiement"
+   ],
+   "resource": "Documentation GitHub Actions — Deployments",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Créer une clé SSH dédiée au déploiement avec droits limités",
+    "Écrire le job de déploiement par SSH",
+    "Ajouter un contrôle de santé après déploiement",
+    "Déployer une mauvaise version volontairement et revenir en arrière"
+   ],
+   "livrable": "Workflow de déploiement + procédure de retour arrière",
+   "mini": "Déployer manuellement une version avec compose pull et up",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S8-M3-c1",
+      "host": "srv-linux",
+      "description": "La version déployée est la bonne",
+      "cmd": "curl -s http://localhost/version",
+      "expect": {
+       "op": "review",
+       "value": null
+      },
+      "expect_text": "dernier tag publié"
+     },
+     {
+      "id": "S8-M3-c2",
+      "host": "none",
+      "description": "Retour arrière démontré : mauvaise version puis restauration (capture)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Déployer automatiquement vers un environnement de test avant la production",
+   "incident": "Le déploiement réussit mais l'application est cassée : détecter et revenir en arrière automatiquement",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "cicd.deploy.ssh",
+    "ops.rollback"
+   ]
+  },
+  {
+   "id": "S8-M4",
+   "week": 8,
+   "day": 4,
+   "day_label": "jeudi",
+   "title": "AWS : compte sécurisé, IAM et alerte de budget",
+   "objective": "Un compte AWS protégé, un utilisateur à droits limités et une alerte de budget actifs",
+   "duration_core_min": 90,
+   "notions": [
+    "Ne jamais utiliser le compte racine",
+    "MFA",
+    "IAM : utilisateurs, groupes, rôles, politiques",
+    "Moindre privilège",
+    "Budgets et alertes"
+   ],
+   "resource": "AWS Skill Builder + documentation AWS IAM (vérifier les conditions actuelles du niveau gratuit)",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Activer le MFA sur le compte racine",
+    "Créer un utilisateur ou groupe à droits limités",
+    "Configurer AWS CLI avec un profil",
+    "Créer une alerte de budget avant toute ressource"
+   ],
+   "livrable": "Fiche « Compte AWS sécurisé »",
+   "mini": "Activer le MFA et noter pourquoi on évite le compte racine",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S8-M4-c1",
+      "host": "aws",
+      "description": "Le MFA racine est activé",
+      "cmd": "aws iam get-account-summary --query 'SummaryMap.AccountMFAEnabled'",
+      "expect": {
+       "op": "equals",
+       "value": 1
+      },
+      "expect_text": "1"
+     },
+     {
+      "id": "S8-M4-c2",
+      "host": "aws",
+      "description": "La CLI est authentifiée",
+      "cmd": "aws sts get-caller-identity --query Arn --output text",
+      "expect": {
+       "op": "review",
+       "value": null
+      },
+      "expect_text": "ARN de l'utilisateur limité"
+     },
+     {
+      "id": "S8-M4-c3",
+      "host": "aws",
+      "description": "Une alerte de budget existe",
+      "cmd": "aws budgets describe-budgets --account-id $(aws sts get-caller-identity --query Account --output text) --query 'Budgets[].BudgetName'",
+      "expect": {
+       "op": "review",
+       "value": null
+      },
+      "expect_text": "au moins un nom"
+     }
+    ]
+   },
+   "extension": "Remplacer les clés d'accès par des identifiants temporaires",
+   "incident": "Une clé d'accès a été publiée par erreur : la révoquer et vérifier l'usage",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "aws.iam",
+    "aws.cost.control"
+   ]
+  },
+  {
+   "id": "S8-M5",
+   "week": 8,
+   "day": 5,
+   "day_label": "vendredi",
+   "title": "AWS : VPC, EC2 et groupe de sécurité",
+   "objective": "Une instance accessible en SSH par clé avec un serveur web, puis détruite",
+   "duration_core_min": 90,
+   "notions": [
+    "VPC, sous-réseau, passerelle Internet",
+    "Groupe de sécurité",
+    "Paire de clés et accès SSH",
+    "Cycle de vie d'une instance",
+    "Éteindre pour ne pas payer"
+   ],
+   "resource": "AWS Skill Builder — EC2 et VPC",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Créer un groupe de sécurité limitant SSH à ton adresse",
+    "Lancer une petite instance éligible au niveau gratuit",
+    "Te connecter, installer Nginx et tester depuis l'extérieur",
+    "Terminer l'instance et vérifier qu'aucune ressource ne tourne"
+   ],
+   "livrable": "Fiche « Lancer et détruire une instance »",
+   "mini": "Dessiner le schéma VPC, sous-réseau et groupe de sécurité",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S8-M5-c1",
+      "host": "aws",
+      "description": "Aucune instance ne reste en cours d'exécution",
+      "cmd": "aws ec2 describe-instances --filters Name=instance-state-name,Values=running --query 'length(Reservations[])'",
+      "expect": {
+       "op": "equals",
+       "value": 0
+      },
+      "expect_text": "0"
+     },
+     {
+      "id": "S8-M5-c2",
+      "host": "none",
+      "description": "Page Nginx accessible depuis Internet pendant le test (capture)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Remplacer l'ouverture SSH par une connexion via Session Manager",
+   "incident": "L'instance est lancée mais injoignable : vérifier groupe de sécurité, routage et IP",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "aws.ec2",
+    "aws.vpc.basics"
+   ]
+  },
+  {
+   "id": "S8-M6",
+   "week": 8,
+   "day": 6,
+   "day_label": "samedi",
+   "title": "AWS : S3, politique d'accès et alarme CloudWatch",
+   "objective": "Un compartiment S3 privé, une politique minimale et une alarme",
+   "duration_core_min": 120,
+   "notions": [
+    "S3 : objets et compartiments",
+    "Accès public bloqué",
+    "Politique IAM minimale",
+    "Cycle de vie des objets",
+    "CloudWatch : métriques et alarmes"
+   ],
+   "resource": "AWS Skill Builder — S3 et CloudWatch",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Créer un compartiment avec blocage de l'accès public",
+    "Écrire une politique donnant accès à un seul préfixe",
+    "Envoyer tes sauvegardes dans S3 avec une règle de cycle de vie",
+    "Créer une alarme CloudWatch et la tester"
+   ],
+   "livrable": "Fiche « Sauvegarde vers S3 » + alarme testée",
+   "mini": "Envoyer un fichier dans S3 avec la CLI et le relister",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S8-M6-c1",
+      "host": "aws",
+      "description": "Un compartiment avec blocage public existe",
+      "cmd": "aws s3api get-public-access-block --bucket <ton-bucket> --query 'PublicAccessBlockConfiguration.BlockPublicAcls'",
+      "expect": {
+       "op": "review",
+       "value": null
+      },
+      "expect_text": "true"
+     },
+     {
+      "id": "S8-M6-c2",
+      "host": "aws",
+      "description": "Une alarme existe",
+      "cmd": "aws cloudwatch describe-alarms --query 'length(MetricAlarms)'",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S8-M6-c3",
+      "host": "none",
+      "description": "Règle de cycle de vie configurée (capture)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Chiffrer les objets avec une clé gérée",
+   "incident": "Un compartiment devient public par erreur : détecter et corriger",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "aws.s3",
+    "aws.cloudwatch"
+   ]
+  },
+  {
+   "id": "S9-M1",
+   "week": 9,
+   "day": 1,
+   "day_label": "lundi",
+   "title": "Durcir un serveur Linux",
+   "objective": "Un serveur avec pare-feu, mises à jour automatiques, services réduits et un score Lynis amélioré",
+   "duration_core_min": 90,
+   "notions": [
+    "Surface d'attaque",
+    "ufw : politique par défaut",
+    "Mises à jour automatiques",
+    "Paramètres noyau (sysctl)",
+    "Audit avec Lynis"
+   ],
+   "resource": "Guide de durcissement CIS (référence) + documentation Lynis",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Lancer Lynis et noter le score de départ",
+    "Activer ufw en refusant tout par défaut sauf SSH et HTTPS",
+    "Désactiver les services inutiles et activer les mises à jour automatiques",
+    "Relancer Lynis et comparer"
+   ],
+   "livrable": "Rapport avant/après + fiche",
+   "mini": "Lancer Lynis et noter le score",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S9-M1-c1",
+      "host": "srv-linux",
+      "description": "Le pare-feu est actif",
+      "cmd": "sudo ufw status | head -1",
+      "expect": {
+       "op": "contains",
+       "value": "Status: active"
+      },
+      "expect_text": "Status: active"
+     },
+     {
+      "id": "S9-M1-c2",
+      "host": "srv-linux",
+      "description": "Les mises à jour automatiques sont activées",
+      "cmd": "systemctl is-enabled unattended-upgrades",
+      "expect": {
+       "op": "equals",
+       "value": "enabled"
+      },
+      "expect_text": "enabled"
+     },
+     {
+      "id": "S9-M1-c3",
+      "host": "none",
+      "description": "Score Lynis amélioré d'au moins 10 points par rapport au départ (captures)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Appliquer le durcissement via ton rôle Ansible",
+   "incident": "Le pare-feu t'a coupé l'accès : procédure de récupération et règle préventive",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "security.linux.hardening",
+    "security.firewall.ufw"
+   ]
+  },
+  {
+   "id": "S9-M2",
+   "week": 9,
+   "day": 2,
+   "day_label": "mardi",
+   "title": "Journalisation d'audit et accès privilégiés",
+   "objective": "Des règles auditd qui tracent les modifications sensibles et les usages de sudo",
+   "duration_core_min": 75,
+   "notions": [
+    "auditd et règles",
+    "Surveiller /etc/passwd et sudoers",
+    "Journaux sudo",
+    "Rétention des journaux",
+    "Lire un événement d'audit"
+   ],
+   "resource": "man auditd + man audit.rules",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Installer auditd",
+    "Ajouter des règles de surveillance sur les fichiers sensibles",
+    "Provoquer une modification et retrouver l'événement avec ausearch",
+    "Vérifier la journalisation des commandes sudo"
+   ],
+   "livrable": "Fiche « Tracer les accès privilégiés »",
+   "mini": "Retrouver dans les journaux la dernière commande sudo",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S9-M2-c1",
+      "host": "srv-linux",
+      "description": "Une règle de surveillance existe",
+      "cmd": "sudo auditctl -l | grep -c passwd",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S9-M2-c2",
+      "host": "srv-linux",
+      "description": "L'événement est retrouvé",
+      "cmd": "sudo ausearch -k passwd_changes | wc -l",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     }
+    ]
+   },
+   "extension": "Envoyer les journaux d'audit vers un serveur central",
+   "incident": "Un fichier sensible a changé cette nuit : reconstituer qui, quand et comment",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "security.audit.auditd",
+    "linux.privileged.access"
+   ]
+  },
+  {
+   "id": "S9-M3",
+   "week": 9,
+   "day": 3,
+   "day_label": "mercredi",
+   "title": "Détecter une attaque avec Wazuh",
+   "objective": "Une alerte de force brute SSH visible dans Wazuh, sur ton propre laboratoire",
+   "duration_core_min": 150,
+   "notions": [
+    "Rôle d'un SIEM/XDR",
+    "Agent et gestionnaire",
+    "Règles et niveaux d'alerte",
+    "Force brute SSH",
+    "Faux positifs"
+   ],
+   "resource": "Documentation Wazuh — installation et agent. Uniquement sur tes propres machines virtuelles de laboratoire.",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Déployer Wazuh (instance unique) en veillant à la mémoire disponible",
+    "Installer l'agent sur srv-linux",
+    "Depuis une autre VM de ton lab, lancer des tentatives SSH échouées contre srv-linux",
+    "Retrouver l'alerte dans le tableau de bord et noter la règle déclenchée"
+   ],
+   "livrable": "Fiche « Détecter une force brute » + capture de l'alerte",
+   "mini": "Déployer l'agent et vérifier qu'il apparaît connecté",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S9-M3-c1",
+      "host": "srv-linux",
+      "description": "L'agent Wazuh est actif",
+      "cmd": "systemctl is-active wazuh-agent",
+      "expect": {
+       "op": "equals",
+       "value": "active"
+      },
+      "expect_text": "active"
+     },
+     {
+      "id": "S9-M3-c2",
+      "host": "none",
+      "description": "Alerte de force brute SSH visible dans le tableau de bord, avec règle et niveau (capture)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Écrire une règle personnalisée pour un événement précis",
+   "incident": "Wazuh génère 500 alertes par heure : trier le bruit du signal",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "security.siem.wazuh",
+    "security.detection.bruteforce"
+   ]
+  },
+  {
+   "id": "S9-M4",
+   "week": 9,
+   "day": 4,
+   "day_label": "jeudi",
+   "title": "Reconnaissance et analyse de vulnérabilités sur ton laboratoire",
+   "objective": "Un rapport priorisé des services exposés et des correctifs, puis un second scan qui prouve l'amélioration",
+   "duration_core_min": 90,
+   "notions": [
+    "Découverte d'hôtes et de ports",
+    "Détection de versions",
+    "Priorisation par risque",
+    "Fermer ce qui n'est pas nécessaire",
+    "Éthique et périmètre autorisé"
+   ],
+   "resource": "Documentation Nmap. Uniquement sur tes propres machines virtuelles de laboratoire.",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Scanner srv-linux avec nmap et noter les ports ouverts",
+    "Identifier les versions et les risques",
+    "Fermer ou restreindre les services inutiles",
+    "Rescanner et comparer"
+   ],
+   "livrable": "Rapport de scan avant/après",
+   "mini": "Scanner une VM de ton lab et lister les ports ouverts",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S9-M4-c1",
+      "host": "local",
+      "description": "Seuls les ports attendus sont ouverts",
+      "cmd": "nmap -p- --open -T4 <ip-srv-linux> | grep -c '/tcp open'",
+      "expect": {
+       "op": "lte",
+       "value": 3
+      },
+      "expect_text": "<= 3"
+     },
+     {
+      "id": "S9-M4-c2",
+      "host": "none",
+      "description": "Rapport avec au moins 5 constats classés par risque et la correction appliquée",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Automatiser le scan et comparer les résultats d'une semaine à l'autre",
+   "incident": "Un port inconnu est ouvert : retrouver le processus responsable et décider",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "security.recon.nmap",
+    "security.vulnerability.management"
+   ]
+  },
+  {
+   "id": "S9-M5",
+   "week": 9,
+   "day": 5,
+   "day_label": "vendredi",
+   "title": "Sécuriser Windows et Active Directory",
+   "objective": "Une politique de mots de passe renforcée, des comptes administrateurs réduits et des audits actifs",
+   "duration_core_min": 90,
+   "notions": [
+    "Politique de mots de passe",
+    "Moindre privilège dans AD",
+    "Groupes d'administration",
+    "Stratégies d'audit",
+    "Microsoft Defender"
+   ],
+   "resource": "Microsoft Learn — Securing Active Directory",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Auditer les membres des groupes d'administration",
+    "Durcir la politique de mots de passe",
+    "Activer les stratégies d'audit utiles",
+    "Vérifier l'état de Defender"
+   ],
+   "livrable": "Rapport de durcissement AD + fiche",
+   "mini": "Lister les membres de Admins du domaine",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S9-M5-c1",
+      "host": "DC01",
+      "description": "Longueur minimale du mot de passe d'au moins 12",
+      "cmd": "(Get-ADDefaultDomainPasswordPolicy).MinPasswordLength",
+      "expect": {
+       "op": "gte",
+       "value": 12
+      },
+      "expect_text": ">= 12"
+     },
+     {
+      "id": "S9-M5-c2",
+      "host": "DC01",
+      "description": "Admins du domaine limités",
+      "cmd": "(Get-ADGroupMember 'Admins du domaine').Count",
+      "expect": {
+       "op": "lte",
+       "value": 3
+      },
+      "expect_text": "<= 3"
+     },
+     {
+      "id": "S9-M5-c3",
+      "host": "DC01",
+      "description": "Defender actif",
+      "cmd": "(Get-MpComputerStatus).AntivirusEnabled",
+      "expect": {
+       "op": "equals",
+       "value": "True"
+      },
+      "expect_text": "True"
+     }
+    ]
+   },
+   "extension": "Écrire un script qui alerte quand un compte entre dans un groupe d'administration",
+   "incident": "Un compte de service est administrateur du domaine : le corriger sans casser le service",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "security.windows.hardening",
+    "security.ad.leastprivilege"
+   ]
+  },
+  {
+   "id": "S9-M6",
+   "week": 9,
+   "day": 6,
+   "day_label": "samedi",
+   "title": "Exercice de réponse à incident",
+   "objective": "Détecter, contenir, éradiquer et documenter une compromission simulée sur ton laboratoire",
+   "duration_core_min": 150,
+   "notions": [
+    "Phases d'une réponse à incident",
+    "Indicateurs de compromission",
+    "Confinement avant éradication",
+    "Chronologie",
+    "Rapport post-incident"
+   ],
+   "resource": "Guide de réponse à incident NIST (référence) + modèle de post-mortem. Uniquement sur tes propres machines virtuelles de laboratoire.",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Faire planter par un pair ou par script un élément suspect (utilisateur inconnu, tâche cron, clé SSH)",
+    "Détecter avec journaux et Wazuh",
+    "Contenir, éradiquer et vérifier",
+    "Rédiger la chronologie et les leçons"
+   ],
+   "livrable": "Rapport post-incident complet",
+   "mini": "Rédiger la liste des 4 phases de réponse à incident avec un exemple pour chacune",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S9-M6-c1",
+      "host": "srv-linux",
+      "description": "Aucune tâche cron suspecte pour root",
+      "cmd": "sudo crontab -l -u root 2>/dev/null | grep -vc '^#'",
+      "expect": {
+       "op": "review",
+       "value": null
+      },
+      "expect_text": "0 ou limité aux tâches connues"
+     },
+     {
+      "id": "S9-M6-c2",
+      "host": "none",
+      "description": "Rapport post-incident avec chronologie, cause racine, correctifs et leçons",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Mettre en place une alerte qui aurait détecté l'incident plus tôt",
+   "incident": "Tu découvres le compromis seulement 3 jours plus tard : que reconstituer et comment ?",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "security.incident.response",
+    "security.forensics.basics"
+   ]
+  },
+  {
+   "id": "S10-M1",
+   "week": 10,
+   "day": 1,
+   "day_label": "lundi",
+   "title": "Terraform : les bases avec un fournisseur local",
+   "objective": "Un premier projet Terraform qui crée et détruit des ressources, sans coût",
+   "duration_core_min": 90,
+   "notions": [
+    "Fournisseur, ressource, état",
+    "init, plan, apply, destroy",
+    "Lire un plan",
+    "Fichier d'état",
+    "Déclaratif vs impératif"
+   ],
+   "resource": "Documentation Terraform — Get Started (Docker ou local)",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Initialiser un projet avec le fournisseur Docker ou local",
+    "Décrire un conteneur ou un fichier comme ressource",
+    "Lire le plan puis appliquer",
+    "Modifier la ressource et observer le plan, puis détruire"
+   ],
+   "livrable": "Projet Terraform + fiche",
+   "mini": "Lancer terraform init et terraform plan sur un exemple",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S10-M1-c1",
+      "host": "local",
+      "description": "La configuration est valide",
+      "cmd": "terraform validate",
+      "expect": {
+       "op": "contains",
+       "value": "Success"
+      },
+      "expect_text": "Success"
+     },
+     {
+      "id": "S10-M1-c2",
+      "host": "local",
+      "description": "Aucun écart après application",
+      "cmd": "terraform plan -detailed-exitcode >/dev/null; echo $?",
+      "expect": {
+       "op": "equals",
+       "value": 0
+      },
+      "expect_text": "0"
+     }
+    ]
+   },
+   "extension": "Ajouter une seconde ressource dépendante de la première",
+   "incident": "terraform apply échoue à mi-chemin : comprendre l'état et reprendre",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "terraform.basics",
+    "iac.declarative"
+   ]
+  },
+  {
+   "id": "S10-M2",
+   "week": 10,
+   "day": 2,
+   "day_label": "mardi",
+   "title": "Terraform : variables, sorties et état",
+   "objective": "Un projet paramétré avec variables, sorties et formatage cohérent",
+   "duration_core_min": 75,
+   "notions": [
+    "Variables et valeurs par défaut",
+    "tfvars",
+    "Sorties",
+    "État local vs distant",
+    "terraform fmt"
+   ],
+   "resource": "Documentation Terraform — Variables and Outputs",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Extraire les valeurs en variables",
+    "Ajouter des sorties utiles",
+    "Séparer les valeurs dans un fichier tfvars exclu de Git",
+    "Formater et valider"
+   ],
+   "livrable": "Projet paramétré + fiche",
+   "mini": "Ajouter une variable avec valeur par défaut",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S10-M2-c1",
+      "host": "local",
+      "description": "Le code est formaté",
+      "cmd": "terraform fmt -check && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S10-M2-c2",
+      "host": "local",
+      "description": "Les sorties existent",
+      "cmd": "terraform output | wc -l",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S10-M2-c3",
+      "host": "local",
+      "description": "Les valeurs sensibles sont exclues de Git",
+      "cmd": "git check-ignore terraform.tfvars && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     }
+    ]
+   },
+   "extension": "Marquer une variable comme sensible et vérifier la sortie",
+   "incident": "L'état contient un secret en clair : où et comment le limiter ?",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "terraform.variables",
+    "iac.state"
+   ]
+  },
+  {
+   "id": "S10-M3",
+   "week": 10,
+   "day": 3,
+   "day_label": "mercredi",
+   "title": "Terraform sur AWS : réseau et instance, puis destruction",
+   "objective": "Un VPC, un groupe de sécurité et une instance créés par le code, puis détruits proprement",
+   "duration_core_min": 150,
+   "notions": [
+    "Fournisseur AWS et authentification",
+    "VPC, sous-réseau, groupe de sécurité en code",
+    "Instance EC2",
+    "Coûts et destruction",
+    "Étiquettes"
+   ],
+   "resource": "Documentation Terraform — AWS provider (vérifier les conditions du niveau gratuit)",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Vérifier l'alerte de budget avant de commencer",
+    "Décrire réseau, groupe de sécurité et instance en code",
+    "Appliquer, tester l'accès, noter les coûts potentiels",
+    "Détruire et vérifier qu'il ne reste rien"
+   ],
+   "livrable": "Projet Terraform AWS + fiche coûts",
+   "mini": "Relire ton plan et estimer ce qui coûterait de l'argent",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S10-M3-c1",
+      "host": "local",
+      "description": "Plan propre après application",
+      "cmd": "terraform plan -detailed-exitcode >/dev/null; echo $?",
+      "expect": {
+       "op": "equals",
+       "value": 0
+      },
+      "expect_text": "0"
+     },
+     {
+      "id": "S10-M3-c2",
+      "host": "aws",
+      "description": "Aucune instance ne tourne après destruction",
+      "cmd": "aws ec2 describe-instances --filters Name=instance-state-name,Values=running --query 'length(Reservations[])'",
+      "expect": {
+       "op": "equals",
+       "value": 0
+      },
+      "expect_text": "0"
+     }
+    ]
+   },
+   "extension": "Ajouter des étiquettes obligatoires sur toutes les ressources",
+   "incident": "Une ressource reste après terraform destroy : la retrouver et comprendre pourquoi",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "terraform.aws",
+    "cloud.cost.discipline"
+   ]
+  },
+  {
+   "id": "S10-M4",
+   "week": 10,
+   "day": 4,
+   "day_label": "jeudi",
+   "title": "Terraform : modules et environnements",
+   "objective": "Un module réseau réutilisé dans deux environnements",
+   "duration_core_min": 90,
+   "notions": [
+    "Module : entrées, sorties",
+    "Structure de dépôt",
+    "Environnements dev et prod",
+    "Versionner un module",
+    "Éviter la duplication"
+   ],
+   "resource": "Documentation Terraform — Modules",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Extraire le réseau dans un module",
+    "Appeler le module depuis deux dossiers d'environnement",
+    "Valider les deux environnements",
+    "Documenter les entrées et sorties du module"
+   ],
+   "livrable": "Module + deux environnements + README",
+   "mini": "Lister ce qui serait paramétrable dans ton réseau",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S10-M4-c1",
+      "host": "local",
+      "description": "Environnement dev valide",
+      "cmd": "terraform -chdir=envs/dev validate",
+      "expect": {
+       "op": "contains",
+       "value": "Success"
+      },
+      "expect_text": "Success"
+     },
+     {
+      "id": "S10-M4-c2",
+      "host": "local",
+      "description": "Environnement prod valide",
+      "cmd": "terraform -chdir=envs/prod validate",
+      "expect": {
+       "op": "contains",
+       "value": "Success"
+      },
+      "expect_text": "Success"
+     }
+    ]
+   },
+   "extension": "Publier le module dans un dépôt dédié et le référencer par version",
+   "incident": "Une modification du module casse la production : comment l'éviter à l'avenir ?",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "terraform.modules",
+    "iac.structure"
+   ]
+  },
+  {
+   "id": "S10-M5",
+   "week": 10,
+   "day": 5,
+   "day_label": "vendredi",
+   "title": "Qualité et sécurité de l'infrastructure en code",
+   "objective": "Un code Terraform analysé, corrigé et surveillé automatiquement",
+   "duration_core_min": 75,
+   "notions": [
+    "Analyse statique d'IaC",
+    "Checkov ou Trivy config",
+    "Principaux risques (accès public, chiffrement, ports ouverts)",
+    "Faux positifs et exceptions justifiées",
+    "Contrôle dans le pipeline"
+   ],
+   "resource": "Documentation Checkov ou Trivy (analyse de configuration)",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Analyser ton projet",
+    "Corriger les constats les plus graves",
+    "Documenter les exceptions justifiées",
+    "Ajouter l'analyse au pipeline"
+   ],
+   "livrable": "Rapport avant/après + pipeline",
+   "mini": "Lancer l'analyse et noter les 3 constats les plus graves",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S10-M5-c1",
+      "host": "local",
+      "description": "Aucun constat critique",
+      "cmd": "trivy config --severity CRITICAL --exit-code 1 . && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S10-M5-c2",
+      "host": "local",
+      "description": "L'analyse est dans le pipeline",
+      "cmd": "grep -lE 'checkov|trivy' .github/workflows/*.yml | wc -l",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     }
+    ]
+   },
+   "extension": "Échouer le pipeline si un groupe de sécurité ouvre SSH au monde entier",
+   "incident": "L'outil signale un faux positif : comment décider et le justifier",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "iac.security.scanning",
+    "cicd.security.gates"
+   ]
+  },
+  {
+   "id": "S10-M6",
+   "week": 10,
+   "day": 6,
+   "day_label": "samedi",
+   "title": "Terraform et Ansible dans un pipeline",
+   "objective": "Terraform prépare une machine, Ansible la configure, le tout déclenché par GitHub Actions",
+   "duration_core_min": 150,
+   "notions": [
+    "Séparer provisionnement et configuration",
+    "Plan sur pull request, apply sur fusion",
+    "Inventaire dynamique",
+    "Secrets du pipeline",
+    "Idempotence de bout en bout"
+   ],
+   "resource": "Documentation HashiCorp et Ansible — intégration",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Faire exécuter terraform plan à chaque pull request",
+    "Faire exécuter apply après fusion sur main",
+    "Lancer le playbook de durcissement et Nginx sur la machine créée",
+    "Tester la page servie et détruire à la fin"
+   ],
+   "livrable": "Pipeline complet + fiche",
+   "mini": "Faire afficher le plan Terraform dans une pull request",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S10-M6-c1",
+      "host": "local",
+      "description": "Le workflow plan/apply existe",
+      "cmd": "grep -lE 'terraform (plan|apply)' .github/workflows/*.yml | wc -l",
+      "expect": {
+       "op": "gte",
+       "value": 1
+      },
+      "expect_text": ">= 1"
+     },
+     {
+      "id": "S10-M6-c2",
+      "host": "none",
+      "description": "Une pull request affiche le plan et la fusion déclenche l'application (captures)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Ajouter une approbation manuelle avant l'application",
+   "incident": "L'application échoue à mi-chemin sur le pipeline : état, reprise et nettoyage",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "cicd.terraform.pipeline",
+    "iac.ansible.integration"
+   ]
+  },
+  {
+   "id": "S11-M1",
+   "week": 11,
+   "day": 1,
+   "day_label": "lundi",
+   "title": "Projet final : cadrer l'architecture",
+   "objective": "Un cahier d'architecture, un schéma et un tableau de tâches du projet de plateforme sécurisée",
+   "duration_core_min": 120,
+   "notions": [
+    "Besoin et périmètre",
+    "Schéma d'architecture",
+    "Modèle de menaces léger",
+    "Découpage en étapes",
+    "Critères de réussite"
+   ],
+   "resource": "Documentation d'architecture de référence (modèle C4 ou schéma simple)",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Décrire le besoin d'une PME fictive et le périmètre",
+    "Dessiner l'architecture : réseau, serveurs, application, supervision, sécurité",
+    "Lister cinq menaces et les parades prévues",
+    "Créer au moins 10 tâches dans GitHub Issues"
+   ],
+   "livrable": "architecture.md + schéma + tableau des tâches",
+   "mini": "Écrire en 5 lignes le but du projet et ce qu'il ne fera pas",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S11-M1-c1",
+      "host": "none",
+      "description": "architecture.md avec schéma et liste de menaces",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S11-M1-c2",
+      "host": "none",
+      "description": "Au moins 10 issues créées avec critères de réussite",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Faire relire l'architecture par une personne du métier",
+   "incident": "Un point faible de ton architecture est signalé : le corriger dans le plan avant de coder",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "architecture.design",
+    "security.threat.modeling"
+   ]
+  },
+  {
+   "id": "S11-M2",
+   "week": 11,
+   "day": 2,
+   "day_label": "mardi",
+   "title": "Projet final : l'infrastructure en code",
+   "objective": "Le réseau et les machines du projet décrits en Terraform et appliqués proprement",
+   "duration_core_min": 120,
+   "notions": [
+    "Réutiliser tes modules",
+    "Étiquettes et nommage",
+    "Sécurité par défaut",
+    "Coût maîtrisé",
+    "Destruction propre"
+   ],
+   "resource": "Documentation Terraform et ton propre module réseau",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Réutiliser le module réseau",
+    "Décrire les machines nécessaires",
+    "Appliquer sur un environnement de test",
+    "Valider et détruire à la fin de chaque session"
+   ],
+   "livrable": "Code Terraform du projet",
+   "mini": "Relire ton plan et vérifier les groupes de sécurité",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S11-M2-c1",
+      "host": "local",
+      "description": "Plan propre",
+      "cmd": "terraform plan -detailed-exitcode >/dev/null; echo $?",
+      "expect": {
+       "op": "equals",
+       "value": 0
+      },
+      "expect_text": "0"
+     },
+     {
+      "id": "S11-M2-c2",
+      "host": "local",
+      "description": "Aucun constat critique",
+      "cmd": "trivy config --severity CRITICAL --exit-code 1 . && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     }
+    ]
+   },
+   "extension": "Ajouter un second environnement",
+   "incident": "Le plan veut recréer une machine en production : comprendre pourquoi avant d'appliquer",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "project.iac",
+    "terraform.aws"
+   ]
+  },
+  {
+   "id": "S11-M3",
+   "week": 11,
+   "day": 3,
+   "day_label": "mercredi",
+   "title": "Projet final : la configuration par Ansible",
+   "objective": "Des rôles qui durcissent, installent Docker et préparent la supervision",
+   "duration_core_min": 180,
+   "notions": [
+    "Rôles réutilisables",
+    "Durcissement",
+    "Installation de Docker",
+    "Agent de supervision",
+    "Idempotence"
+   ],
+   "resource": "Documentation Ansible et tes rôles précédents",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Assembler le rôle de durcissement SSH et pare-feu",
+    "Écrire le rôle d'installation de Docker",
+    "Ajouter l'agent de supervision",
+    "Lancer deux fois et constater qu'il n'y a plus de changement"
+   ],
+   "livrable": "Playbook et rôles du projet",
+   "mini": "Relancer le playbook et lire le récapitulatif",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S11-M3-c1",
+      "host": "local",
+      "description": "ansible-lint sans erreur",
+      "cmd": "ansible-lint && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S11-M3-c2",
+      "host": "local",
+      "description": "Idempotence",
+      "cmd": "ansible-playbook -i inventory site.yml | grep -E 'changed=[0-9]+' | tail -1",
+      "expect": {
+       "op": "contains",
+       "value": "changed=0"
+      },
+      "expect_text": "changed=0"
+     },
+     {
+      "id": "S11-M3-c3",
+      "host": "srv-linux",
+      "description": "Docker installé",
+      "cmd": "docker --version",
+      "expect": {
+       "op": "contains",
+       "value": "Docker version"
+      },
+      "expect_text": "Docker version"
+     }
+    ]
+   },
+   "extension": "Tester un rôle avec Molecule",
+   "incident": "Une machine reconstruite ne se configure pas à l'identique : trouver la dérive",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "project.ansible",
+    "ansible.roles"
+   ]
+  },
+  {
+   "id": "S11-M4",
+   "week": 11,
+   "day": 4,
+   "day_label": "jeudi",
+   "title": "Projet final : déployer l'application avec le pipeline",
+   "objective": "Une application déployée automatiquement en HTTPS avec contrôle de santé",
+   "duration_core_min": 120,
+   "notions": [
+    "Pipeline complet",
+    "Image versionnée",
+    "Déploiement automatique",
+    "Contrôle de santé",
+    "Retour arrière"
+   ],
+   "resource": "Tes workflows des semaines 8 et 10",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Construire et publier l'image du projet",
+    "Déployer sur la machine configurée",
+    "Vérifier la route de santé et le certificat",
+    "Tester un retour arrière"
+   ],
+   "livrable": "Pipeline de livraison fonctionnel",
+   "mini": "Déclencher le pipeline et lire chaque étape",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S11-M4-c1",
+      "host": "srv-linux",
+      "description": "L'application répond en HTTPS",
+      "cmd": "curl -skI https://localhost | head -1",
+      "expect": {
+       "op": "equals",
+       "value": "200"
+      },
+      "expect_text": "200"
+     },
+     {
+      "id": "S11-M4-c2",
+      "host": "srv-linux",
+      "description": "La route de santé répond",
+      "cmd": "curl -sk https://localhost/health",
+      "expect": {
+       "op": "equals",
+       "value": "ok"
+      },
+      "expect_text": "ok"
+     },
+     {
+      "id": "S11-M4-c3",
+      "host": "none",
+      "description": "Pipeline vert de bout en bout et retour arrière démontré (captures)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Ajouter un déploiement progressif",
+   "incident": "Le déploiement réussit mais la santé échoue : arrêter et revenir en arrière automatiquement",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "project.cicd",
+    "ops.rollback"
+   ]
+  },
+  {
+   "id": "S11-M5",
+   "week": 11,
+   "day": 5,
+   "day_label": "vendredi",
+   "title": "Projet final : supervision et alertes utiles",
+   "objective": "Un tableau de bord lisible et au moins deux alertes qui servent vraiment",
+   "duration_core_min": 120,
+   "notions": [
+    "Métriques essentielles",
+    "Seuils et durée",
+    "Alerte exploitable",
+    "Tableau de bord utile",
+    "Éviter la fatigue d'alertes"
+   ],
+   "resource": "Documentation Zabbix, ou Prometheus et Grafana",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Superviser les machines et l'application",
+    "Créer deux alertes : disponibilité et ressource",
+    "Construire un tableau de bord d'une page",
+    "Provoquer deux pannes et vérifier que les alertes arrivent"
+   ],
+   "livrable": "Supervision en place + deux incidents simulés",
+   "mini": "Choisir les 5 mesures les plus utiles pour ce projet",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S11-M5-c1",
+      "host": "none",
+      "description": "Tableau de bord lisible (capture)",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S11-M5-c2",
+      "host": "none",
+      "description": "Deux alertes déclenchées puis résolues, avec le temps de détection",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Ajouter une alerte sur l'échec de sauvegarde",
+   "incident": "Une alerte se déclenche 40 fois par jour : la rendre utile",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "project.monitoring",
+    "monitoring.alerting"
+   ]
+  },
+  {
+   "id": "S11-M6",
+   "week": 11,
+   "day": 6,
+   "day_label": "samedi",
+   "title": "Projet final : passage sécurité et sauvegardes",
+   "objective": "Analyses automatiques, gestion des secrets, sauvegarde et restauration prouvées",
+   "duration_core_min": 150,
+   "notions": [
+    "Analyse des images et de l'IaC",
+    "Gestion des secrets",
+    "Sauvegarde et restauration",
+    "Journalisation",
+    "Rapport de sécurité"
+   ],
+   "resource": "Tes fiches des semaines 7 à 10",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Lancer les analyses dans le pipeline",
+    "Vérifier qu'aucun secret n'est dans le dépôt",
+    "Tester une restauration complète",
+    "Rédiger un court rapport de sécurité"
+   ],
+   "livrable": "Rapport de sécurité + procédure de restauration",
+   "mini": "Relire la liste des secrets utilisés et où ils sont stockés",
+   "verification": {
+    "target": "automated",
+    "checks": [
+     {
+      "id": "S11-M6-c1",
+      "host": "local",
+      "description": "Aucun secret dans le dépôt",
+      "cmd": "gitleaks detect --no-banner && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S11-M6-c2",
+      "host": "local",
+      "description": "Aucun constat critique sur l'image",
+      "cmd": "trivy image --severity CRITICAL --ignore-unfixed --exit-code 1 monapp:latest && echo OK",
+      "expect": {
+       "op": "equals",
+       "value": "OK"
+      },
+      "expect_text": "OK"
+     },
+     {
+      "id": "S11-M6-c3",
+      "host": "none",
+      "description": "Restauration complète démontrée avec durée mesurée",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Simuler une perte totale et reconstruire avec le code",
+   "incident": "La restauration prend 6 heures : identifier le goulot et l'améliorer",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "project.security",
+    "ops.backup.restore"
+   ]
+  },
+  {
+   "id": "S12-M1",
+   "week": 12,
+   "day": 1,
+   "day_label": "lundi",
+   "title": "Finaliser et documenter le projet final",
+   "objective": "Un dépôt que n'importe quel recruteur comprend en deux minutes",
+   "duration_core_min": 150,
+   "notions": [
+    "README orienté lecteur",
+    "Schéma d'architecture",
+    "Démonstration courte",
+    "Décisions et compromis",
+    "Reproductibilité"
+   ],
+   "resource": "Dépôts de référence appréciés sur GitHub",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Réécrire le README : problème, solution, architecture, comment reproduire",
+    "Ajouter le schéma et une courte démonstration (GIF ou vidéo)",
+    "Écrire une section « Décisions et compromis »",
+    "Tester la reproduction depuis un dossier vide"
+   ],
+   "livrable": "Dépôt de projet final prêt à montrer",
+   "mini": "Écrire l'en-tête du README en 5 lignes",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S12-M1-c1",
+      "host": "none",
+      "description": "README avec schéma, démonstration et section décisions et compromis",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S12-M1-c2",
+      "host": "none",
+      "description": "Reproduction réussie depuis zéro par toi ou une autre personne",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Rédiger un article technique de 600 mots sur une difficulté rencontrée",
+   "incident": "Un recruteur n'a que 2 minutes : que doit-il retenir ? Réécrire l'en-tête",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "career.portfolio",
+    "docs.technical.writing"
+   ]
+  },
+  {
+   "id": "S12-M2",
+   "week": 12,
+   "day": 2,
+   "day_label": "mardi",
+   "title": "CV, LinkedIn et GitHub : un profil cohérent",
+   "objective": "Un CV, un profil LinkedIn et un profil GitHub qui racontent la même histoire",
+   "duration_core_min": 120,
+   "notions": [
+    "CV orienté résultats",
+    "Titre et résumé LinkedIn",
+    "Profil GitHub (README personnel, dépôts épinglés)",
+    "Mots-clés issus des offres",
+    "Version française et anglaise"
+   ],
+   "resource": "Offres de ton radar + exemples de profils de juniors",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Rédiger un CV d'une page avec résultats mesurables",
+    "Réécrire titre et résumé LinkedIn avec les mots-clés des offres",
+    "Épingler tes 3 meilleurs dépôts sur GitHub",
+    "Faire relire le tout"
+   ],
+   "livrable": "CV + profil LinkedIn + profil GitHub",
+   "mini": "Écrire ton titre LinkedIn en une ligne",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S12-M2-c1",
+      "host": "none",
+      "description": "CV d'une page, version française et anglaise",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S12-M2-c2",
+      "host": "none",
+      "description": "Titre et résumé LinkedIn mis à jour, 3 dépôts épinglés",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Demander une recommandation à un maître de stage ou un enseignant",
+   "incident": "Ton CV est ignoré : analyser trois offres et réécrire en conséquence",
+   "flashcards_target": 6,
+   "skill_nodes": [
+    "career.cv",
+    "career.linkedin"
+   ]
+  },
+  {
+   "id": "S12-M3",
+   "week": 12,
+   "day": 3,
+   "day_label": "mercredi",
+   "title": "Préparation aux entretiens techniques",
+   "objective": "Quarante questions travaillées à voix haute, en français puis en anglais",
+   "duration_core_min": 180,
+   "notions": [
+    "Questions réseau, Linux, Windows, Docker, cloud",
+    "Structurer une réponse",
+    "Raconter un projet",
+    "Anglais oral technique",
+    "Enregistrer et réécouter"
+   ],
+   "resource": "Listes de questions d'entretien sysadmin et DevOps (sources récentes)",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Rédiger les 40 questions les plus probables d'après ton radar",
+    "Répondre à voix haute en t'enregistrant",
+    "Réécouter et corriger",
+    "Refaire 10 réponses en anglais"
+   ],
+   "livrable": "Fichier de questions-réponses + enregistrements",
+   "mini": "Répondre à voix haute à 3 questions et t'enregistrer",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S12-M3-c1",
+      "host": "none",
+      "description": "40 questions avec réponses rédigées",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S12-M3-c2",
+      "host": "none",
+      "description": "10 enregistrements en anglais réécoutés et corrigés",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Passer un entretien blanc avec une personne du métier",
+   "incident": "Tu ne connais pas la réponse : comment raisonner à voix haute sans bloquer",
+   "flashcards_target": 8,
+   "skill_nodes": [
+    "career.interview.technical",
+    "english.speaking.technical"
+   ]
+  },
+  {
+   "id": "S12-M4",
+   "week": 12,
+   "day": 4,
+   "day_label": "jeudi",
+   "title": "Entretien de dépannage chronométré",
+   "objective": "Raconter ta méthode de diagnostic sur trois pannes, comme en entretien",
+   "duration_core_min": 90,
+   "notions": [
+    "Méthode structurée",
+    "Hypothèses et tests",
+    "Raconter avec la méthode STAR",
+    "Communiquer pendant l'incident",
+    "Admettre une limite"
+   ],
+   "resource": "Tes fiches d'incident des semaines 1 à 9",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Choisir 3 incidents de tes fiches",
+    "Les raconter en 3 minutes chacun avec la méthode STAR",
+    "Se faire poser des questions pièges",
+    "Corriger les points faibles"
+   ],
+   "livrable": "Trois récits d'incident prêts",
+   "mini": "Raconter un incident en 3 minutes sans notes",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S12-M4-c1",
+      "host": "none",
+      "description": "3 récits d'incident rédigés et répétés",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S12-M4-c2",
+      "host": "none",
+      "description": "Une répétition avec une autre personne et ses retours",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Préparer une question à poser en fin d'entretien pour chaque entreprise ciblée",
+   "incident": "On te demande ton plus gros échec : préparer une réponse honnête et constructive",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "career.interview.behavioral",
+    "support.method.diagnostic"
+   ]
+  },
+  {
+   "id": "S12-M5",
+   "week": 12,
+   "day": 5,
+   "day_label": "vendredi",
+   "title": "Candidatures ciblées et réseau",
+   "objective": "Cinq candidatures personnalisées et dix messages de réseau envoyés",
+   "duration_core_min": 150,
+   "notions": [
+    "Cibler plutôt que multiplier",
+    "Adapter le CV et la lettre à l'offre",
+    "Message de réseau court",
+    "Suivi et relance",
+    "Tableau de suivi"
+   ],
+   "resource": "Ton radar d'offres + LinkedIn",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Choisir 20 entreprises ou offres cibles",
+    "Envoyer 5 candidatures adaptées",
+    "Envoyer 10 messages à des personnes du métier",
+    "Renseigner le suivi avec dates de relance"
+   ],
+   "livrable": "Tableau de suivi à jour + candidatures envoyées",
+   "mini": "Envoyer 2 messages de réseau courts et personnalisés",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S12-M5-c1",
+      "host": "none",
+      "description": "Tableau de suivi avec 20 cibles, 5 candidatures et dates de relance",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S12-M5-c2",
+      "host": "none",
+      "description": "10 messages de réseau envoyés",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Publier un post LinkedIn sur ton projet final",
+   "incident": "Aucune réponse après 10 jours : relancer sans être insistant",
+   "flashcards_target": 6,
+   "skill_nodes": [
+    "career.applications",
+    "career.networking"
+   ]
+  },
+  {
+   "id": "S12-M6",
+   "week": 12,
+   "day": 6,
+   "day_label": "samedi",
+   "title": "Bilan des 12 semaines et plan du trimestre suivant",
+   "objective": "Un bilan honnête et un plan de trois mois fondé sur ta voie choisie et sur les offres",
+   "duration_core_min": 120,
+   "notions": [
+    "Bilan mesuré (missions, cartes, projets)",
+    "Écarts persistants",
+    "Choix de certification d'après les offres",
+    "Objectifs du trimestre",
+    "Rituels à garder"
+   ],
+   "resource": "Ton tableau de progression, ton radar d'offres et ta décision métier",
+   "resource_url": null,
+   "reading_max_min": 20,
+   "steps": [
+    "Relire tes statistiques : missions validées, rétention des cartes, projets terminés",
+    "Lister 3 victoires et 3 écarts",
+    "Choisir une certification d'après la fréquence dans les offres",
+    "Rédiger le plan du trimestre suivant"
+   ],
+   "livrable": "Bilan + plan du trimestre",
+   "mini": "Écrire 3 victoires des 12 dernières semaines",
+   "verification": {
+    "target": "manual",
+    "checks": [
+     {
+      "id": "S12-M6-c1",
+      "host": "none",
+      "description": "Bilan chiffré avec 3 victoires et 3 écarts",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     },
+     {
+      "id": "S12-M6-c2",
+      "host": "none",
+      "description": "Plan du trimestre : voie, certification choisie, 3 objectifs mesurables",
+      "cmd": null,
+      "expect": {
+       "op": "manual",
+       "value": null
+      },
+      "expect_text": "manual"
+     }
+    ]
+   },
+   "extension": "Planifier la date de passage de la certification choisie",
+   "incident": "Les offres ne correspondent pas à ta voie initiale : ajuster le plan sans repartir de zéro",
+   "flashcards_target": 7,
+   "skill_nodes": [
+    "career.review",
+    "career.certification.plan"
+   ]
+  }
+ ]
+}

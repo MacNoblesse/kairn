@@ -1,0 +1,125 @@
+name: Android APK
+
+on:
+  pull_request:
+  push:
+    tags: ["v[0-9]+.[0-9]+.[0-9]+"]
+  workflow_dispatch:
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write   # nécessaire seulement pour créer la Release sur un tag ; les PR (forks) n'ont de toute façon que « read »
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      IS_RELEASE: ${{ startsWith(github.ref, 'refs/tags/v') }}
+      # Adresse du serveur Kairn jointe par l'APK (variable de dépôt : Settings → Variables → Actions).
+      VITE_API_BASE_URL: ${{ vars.KAIRN_API_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - uses: android-actions/setup-android@v3
+
+      - name: Cache Gradle
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: gradle-${{ runner.os }}-${{ hashFiles('android/**/*.gradle', 'android/gradle/wrapper/gradle-wrapper.properties') }}
+          restore-keys: gradle-${{ runner.os }}-
+
+      - name: Versions (versionCode = n° d'exécution, versionName = tag)
+        run: |
+          echo "VERSION_CODE=${{ github.run_number }}" >> "$GITHUB_ENV"
+          if [ "$IS_RELEASE" = "true" ]; then
+            echo "VERSION_NAME=${GITHUB_REF_NAME#v}" >> "$GITHUB_ENV"
+          else
+            echo "VERSION_NAME=0.0.0-ci.${{ github.run_number }}" >> "$GITHUB_ENV"
+          fi
+
+      - name: Vérifier les secrets de signature (tag uniquement)
+        if: env.IS_RELEASE == 'true'
+        env:
+          S1: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          S2: ${{ secrets.KEYSTORE_PASSWORD }}
+          S3: ${{ secrets.KEY_ALIAS }}
+          S4: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          for n in S1 S2 S3 S4; do
+            if [ -z "${!n}" ]; then echo "::error::Secret de signature manquant (ANDROID_KEYSTORE_BASE64, KEYSTORE_PASSWORD, KEY_ALIAS, KEY_PASSWORD)."; exit 1; fi
+          done
+
+      - run: npm ci --no-audit --no-fund
+      - run: npm test
+      - run: npm run build:web
+      - run: npx cap sync android
+
+      # ---------- Pull request / manuel : APK de debug (signé avec la clé de debug Android, pas de secret) ----------
+      - name: Assemble debug APK
+        if: env.IS_RELEASE != 'true'
+        working-directory: android
+        run: ./gradlew assembleDebug -PKAIRN_VERSION_CODE="$VERSION_CODE" -PKAIRN_VERSION_NAME="$VERSION_NAME"
+
+      - name: Upload debug APK
+        if: env.IS_RELEASE != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: kairn-debug-apk
+          path: android/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+
+      # ---------- Tag vX.Y.Z : APK release signé ----------
+      - name: Décoder le keystore
+        if: env.IS_RELEASE == 'true'
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        run: echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/kairn.keystore"
+
+      - name: Assemble release APK (signé)
+        if: env.IS_RELEASE == 'true'
+        working-directory: android
+        env:
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: >
+          ./gradlew assembleRelease
+          -PKAIRN_VERSION_CODE="$VERSION_CODE"
+          -PKAIRN_VERSION_NAME="$VERSION_NAME"
+          -PKAIRN_KEYSTORE_FILE="$RUNNER_TEMP/kairn.keystore"
+
+      - name: Nommer et vérifier la signature
+        if: env.IS_RELEASE == 'true'
+        run: |
+          APK=$(ls android/app/build/outputs/apk/release/*.apk | head -n1)
+          cp "$APK" "kairn-${VERSION_NAME}.apk"
+          APKSIGNER=$(ls "$ANDROID_HOME"/build-tools/*/apksigner | sort -V | tail -n1)
+          "$APKSIGNER" verify --verbose "kairn-${VERSION_NAME}.apk"
+
+      - name: Publier la GitHub Release
+        if: env.IS_RELEASE == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" "kairn-${VERSION_NAME}.apk" \
+            --repo "$GITHUB_REPOSITORY" --title "Kairn ${VERSION_NAME}" --generate-notes
+      - name: Nettoyer le keystore
+        if: always() && env.IS_RELEASE == 'true'
+        run: rm -f "$RUNNER_TEMP/kairn.keystore"

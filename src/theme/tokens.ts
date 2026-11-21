@@ -1,0 +1,81 @@
+/**
+ * Kairn — Material Design 3 Design Tokens
+ * Exportés en TypeScript pour intégration directe dans React / React Native / Android WebView.
+ */
+export const designTokens = {
+  meta: {
+    name: 'Kairn M3 Design System',
+    gridBasePx: 8,
+    minTouchTargetDp: 48,
+    contrastStandard: 'WCAG AA (4.5:1 text, 3:1 UI)',
+  },
+  colors: {
+    dark: {
+      background: '#0B101B',
+      surfaceContainerLow: '#121927',
+      surfaceContainer: '#161F30',
+      surfaceContainerHigh: '#1E293E',
+      outline: '#26334D',
+      onSurface: '#F1F5F9',
+      onSurfaceVariant: '#94A3B8',
+      primary: '#818CF8',
+      primaryContainer: '#312E81',
+      onPrimary: '#0B101B',
+      primaryCtaBg: '#4F46E5',
+      primaryCtaText: '#FFFFFF',
+      success: '#34D399',
+      successContainer: 'rgba(52, 211, 153, 0.12)',
+      warning: '#FBBF24',
+      warningContainer: 'rgba(251, 191, 36, 0.12)',
+    },
+    light: {
+      background: '#F6F8FB',
+      surfaceContainerLow: '#FFFFFF',
+      surfaceContainer: '#FFFFFF',
+      surfaceContainerHigh: '#EEF2F7',
+      outline: '#DCE3EE',
+      onSurface: '#0F172A',
+      onSurfaceVariant: '#475569',
+      primary: '#4F46E5',
+      primaryContainer: '#EEF2FF',
+      onPrimary: '#FFFFFF',
+      primaryCtaBg: '#4F46E5',
+      primaryCtaText: '#FFFFFF',
+      success: '#059669',
+      successContainer: 'rgba(5, 150, 105, 0.10)',
+      warning: '#D97706',
+      warningContainer: 'rgba(217, 119, 6, 0.10)',
+    },
+  },
+  typography: {
+    fontFamily: "'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    monoFamily: "'JetBrains Mono', ui-monospace, SFMono-Regular, monospace",
+    scale: {
+      displayTitle: { fontSize: '26px', lineHeight: '32px', fontWeight: 700, letterSpacing: '-0.02em' },
+      sectionTitle: { fontSize: '18px', lineHeight: '24px', fontWeight: 600, letterSpacing: '-0.01em' },
+      cardTitle: { fontSize: '16px', lineHeight: '22px', fontWeight: 600 },
+      body: { fontSize: '15px', lineHeight: '23px', fontWeight: 400 },
+      caption: { fontSize: '13px', lineHeight: '18px', fontWeight: 500 },
+      navLabel: { fontSize: '11px', lineHeight: '14px', fontWeight: 500 },
+    },
+  },
+  spacing: {
+    xs: '4px',
+    sm: '8px',
+    md: '16px',
+    lg: '24px',
+    xl: '32px',
+    xxl: '48px',
+  },
+  radii: {
+    button: '12px',
+    card: '16px',
+    sheet: '20px',
+    full: '9999px',
+  },
+  motion: {
+    durationFastMs: 150,
+    durationStandardMs: 220,
+    easing: 'cubic-bezier(0.16, 1, 0.3, 1)',
+  },
+} as const;
