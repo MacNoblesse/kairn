@@ -103,7 +103,7 @@ Ouvrir dans Android Studio : `npx cap open android`.
 | Pull request / lancement manuel | Tests, build web, `cap sync`, `assembleDebug` → artefact **`kairn-debug-apk`** (APK de debug, signé par la clé de debug Android, installable pour test) |
 | Tag `vX.Y.Z` (ex. `v1.2.0`) | `assembleRelease` **signé** → vérifié avec `apksigner` → **GitHub Release** avec `kairn-X.Y.Z.apk` |
 
-Étapes : Java 17, Node 22, Android SDK, `npm ci`, `npm test`, build web, `npx cap sync android`, Gradle. **versionCode** = numéro d'exécution du workflow (`github.run_number`, croissant) ; **versionName** = tag sans le `v`.
+Étapes : Java 17, Node 22, Android SDK (préinstallé sur le runner ; licences acceptées, le reste est téléchargé par Gradle), `npm ci`, `npm test`, build web, `npx cap sync android`, Gradle. **versionCode** = numéro d'exécution du workflow (`github.run_number`, croissant) ; **versionName** = tag sans le `v`.
 
 ### Configuration unique
 
